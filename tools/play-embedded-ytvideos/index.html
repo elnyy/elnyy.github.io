@@ -17,7 +17,7 @@
     <h1>Play embedded videos</h1>
   </header>
   <input id="input" type="text" placeholder="Enter a video ID or a URL here." style="width:300px;height:20px;"/>
-    <button id="btn">embed!</button>
+    <button id="btn">embed</button>
     <button id="clear">clear</button>
   <div id="msg"></div>
   <div id="player" class="embed-wrap" style="display:none"></div>
@@ -57,7 +57,7 @@ btn.addEventListener('click', ()=>{
     return;
   }
 
-  const src = `https://www.youtube.com/embed/${encodeURIComponent(id)}?rel=0`;
+  const src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?rel=0`;
   player.innerHTML = `<iframe src="${src}" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
   player.style.display = 'block';
 });
