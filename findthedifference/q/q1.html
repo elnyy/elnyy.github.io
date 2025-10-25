@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>間違い探し #1</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <style>
+    .answer {
+      display: none;
+      margin-top: 1.5em;
+    }
+    .show-btn {
+      display: inline-block;
+      padding: 0.8em 1.2em;
+      background: #4c8bf5;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← トップに戻る</a>
+    <h1>間違い探し #1</h1>
+  </header>
+
+  <main>
+    <p>この画像の中に「1つの間違い」があります。見つけられる？</p>
+    <img src="../assets/img/q1.jpg" alt="間違い探し画像" class="question-img">
+
+    <p class="hint">ヒント：おじさんに注目👀</p>
+
+    <div class="show-btn" onclick="showAnswer()">答えを見る</div>
+
+    <div class="answer" id="answer">
+      <h2>答えはこちら！</h2>
+      <ul>
+        <li>おじさんの服装</li>
+      </ul>
+      <a href="q2.html" class="next-link">▶ 次の問題へ</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 間違い探しWeb</p>
+  </footer>
+
+  <script>
+    function showAnswer() {
+      const ans = document.getElementById('answer');
+      ans.style.display = 'block';
+      document.querySelector('.show-btn').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
+
