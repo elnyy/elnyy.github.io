@@ -212,3 +212,58 @@ background-color: #111;
   font-size: 0.9em;
 }
 }
+/* ==========================
+   答えページ専用スタイル
+========================== */
+.answer-video, .answer-images {
+  margin: 2em auto;
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.2em;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+@media (prefers-color-scheme: dark) {
+  .answer-video, .answer-images {
+    background: #2a2a2a;
+  }
+}
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+}
+.video-note {
+  font-size: 0.9em;
+  color: #777;
+}
+.answer-img {
+  max-width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ナビボタン */
+.answer-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.back-btn, .next-btn {
+  flex: 1;
+  text-align: center;
+  padding: 0.8em 1em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  background: var(--accent);
+  transition: background 0.2s, transform 0.1s;
+}
+.back-btn:hover, .next-btn:hover {
+  background: #ff5722;
+  transform: scale(1.02);
+}
+
