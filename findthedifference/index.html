@@ -2,53 +2,63 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>間違い探しWeb</title>
-  <link rel="stylesheet" href="assets/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>間違い探しWeb | 間違い探しと動画！</title>
+  <meta name="description" content="YouTube Shortsで話題の間違い探し！Webでも遊べる新作問題を公開中。">
+  <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
   <header>
-    <h1>間違い探しWeb</h1>
-    <p>毎日1問更新中！ショート動画の答えもここでチェック！</p>
+    <h1> 間違い探しWeb🐕</h1>
+    <nav>
+      <a href="#latest">イラスト間違い探し</a>
+      <a href="#youtube">YouTubeチャンネル</a>
+    </nav>
   </header>
+
   <main>
-    <h2>最新の問題</h2>
-    <ul class="question-list">
-      <li><a href="q/q1.html">#1：朝の公園の間違い探し</a></li>
-      <li><a href="q/q2.html">#2：ぞうのパン屋さんの間違い探し</a></li>
-    </ul>
-  </main>
-<!-- 答え紹介（YouTubeショート埋め込み） -->
-<section class="shorts-section">
-  <h2>🎥 間違い探しショート動画</h2>
-  <p class="shorts-desc">最近の動画はこちら！</p>
+    <!-- 最新の問題 -->
+    <section id="latest" class="section">
+      <h2>🧩 最新の間違い探し</h2>
+	  <div class="gallery">
+			  <a href="./q/q1.html"><img src="./assets/img/q1.jpg" alt="朝の公園の間違い探し" style="width:200px; filter:grayscale(80%);"></a>
+			  <a href="./q/q2.html"><img src="./assets/img/q2.jpg" alt="パン屋さんの間違い探し" style="width:200px; filter:grayscale(80%);"></a>
+			  <a href="./q/q3.html"><img src="./assets/img/q3.jpg" alt="夏祭りの間違い探し" style="width:200px; filter:grayscale(80%);"></a>
+      </div>
+      <a href="qs.html" class="btn">もっと見る →</a>
+    </section>
 
-  <div class="shorts-grid">
-    <div class="shorts-card">
-      <iframe width="280" height="498" src="https://www.youtube.com/embed/Vs1UG7k8ZGI"
-        title="間違い探しショート #1" frameborder="0"
-        allowfullscreen></iframe>
-    </div>
-    <div class="shorts-card">
-      <iframe width="280" height="498" src="https://www.youtube.com/embed/K2PC2G32cOM"
-        title="間違い探しショート #2" frameborder="0"
-        allowfullscreen></iframe>
+
+    <!-- YouTubeチャンネル紹介 -->
+  <!-- YouTubeチャンネル紹介 -->
+<section id="youtube" class="section youtube-section">
+  <h2>YouTubeチャンネル</h2>
+  <div class="youtube-card">
+    <img src="./assets/img/yt_icon.jpg" alt="チャンネルアイコン" class="channel-icon">
+    <div class="channel-info">
+      <h3>脳トレ間違い探し🐶</h3>
+      <p>毎日更新中！ショートで間違い探し動画をアップロードしています🎥</p>
+      <a href="https://www.youtube.com/@user-hz2ri9kv9z" target="_blank" class="yt-btn">
+        チャンネルへ</a>
     </div>
   </div>
+    <section id="shorts" class="section">
+      <h2>🎥最近の投稿</h2>
+      <div class="video-container">
+        <iframe width="315" height="560" src="https://www.youtube.com/embed/XXXXXXXXXXX"
+          title="間違い探しショート動画" frameborder="0" allowfullscreen></iframe>
+        <iframe width="315" height="560" src="https://www.youtube.com/embed/XXXXXXXXXXX"
+          title="間違い探しショート動画" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
 </section>
 
-<!-- YouTubeチャンネル紹介 -->
-<section class="youtube-section">
-  <h2>📺 YouTubeチャンネル紹介</h2>
-  <div class="youtube-info">
-    <img src="assets/img/yt_icon.jpg" alt="チャンネルアイコン">
-    <p>「間違い探し」では、毎日新しい間違い探しショートを投稿しています。<br>
-       難易度いろいろ！答え合わせはこのサイトで！</p>
-    <a class="youtube-btn" href="https://www.youtube.com/@user-hz2ri9kv9z" target="_blank">チャンネルを見に行く</a>
-  </div>
-</section>
   </main>
+
   <footer>
-    <p>© 2025 間違い探しWeb</p>
+    <p>&copy; 2025 間違い探しWeb</p>
+    <p><a href="#">お問い合わせ</a> | <a href="#">プライバシーポリシー</a></p>
   </footer>
 </body>
 </html>

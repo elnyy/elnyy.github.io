@@ -2,54 +2,152 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>間違い探し #2</title>
+  <title>間違い探し #1</title>
   <link rel="stylesheet" href="../assets/style.css">
   <style>
-    .answer {
-      display: none;
-      margin-top: 1.5em;
+    body {
+      font-family: "Noto Sans JP", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+      text-align: center;
     }
+
+    header {
+      background: #486cf7;
+      color: white;
+      padding: 1rem;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .gallery {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+	  display: block;
+	  margin: 1rem auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+	  justify-content: center;
+    }
+
     .show-btn {
       display: inline-block;
-      padding: 0.8em 1.2em;
+      padding: 0.8em 1.5em;
       background: #4c8bf5;
       color: white;
       border-radius: 8px;
       cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+      margin-bottom: 1.5rem;
+    }
+
+    .show-btn:hover {
+      background: #376ee8;
+    }
+
+    .answer {
+      display: none;
+      margin: 1.5rem auto;
+      padding: 1rem;
+      max-width: 500px;
+      text-align: left;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .answer ul {
+      padding-left: 1.2em;
+    }
+
+    .nav-btns {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin: 2rem 0;
+      flex-wrap: wrap;
+    }
+
+    .nav-btns a {
+      display: inline-block;
+      background: #ff4b4b;
+      color: white;
+      padding: 0.6em 1.5em;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .nav-btns a:hover {
+      background: #e43c3c;
+    }
+
+    footer {
+      background: #eee;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    @media (max-width: 500px) {
+      .nav-btns a {
+        width: 45%;
+        text-align: center;
+      }
     }
   </style>
 </head>
 <body>
+
   <header>
     <a href="../index.html">← トップに戻る</a>
     <h1>間違い探し #2</h1>
   </header>
 
   <main>
-    <p>この画像の中に「3つの間違い」があります。見つけられる？</p>
-    <img src="../assets/img/q2.jpeg" alt="間違い探し画像" class="question-img">
+    <h2>間違いは4つ！見つけられるかな？</h2>
+    <img src="../assets/img/q2.jpg" alt="間違い探し画像" class="gallery">
 
-<p class="hint">ヒント：パンの形に注目🍞</p>
+    <div class="show-btn" onclick="showAnswer()">答えを見る</div>
 
-<div class="show-btn" onclick="showAnswer()">答えを見る</div>
+    <div class="answer" id="answer">
+      <h2>答えはこちら！</h2>
+      <ul>
+        <li>フランスパンの切れ目の数</li>
+        <li>一番左のパンの焼き加減</li>
+        <li>パンの種類が違う</li>
+      </ul>
+    </div>
 
-<div class="answer" id="answer">
-  <h2>答えはこちら！</h2>
-  <ul>
-    <li>パンの焼き加減</li>
-    <li>フランスパンの切れ目の数</li>
-    <li>クロワッサンがない</li>
-  </ul>
-  <a href="q3.html" class="next-link">▶ 次の問題へ</a>
-</div>
+    <div class="nav-btns">
+      <a href="q1.html" class="back-btn">← 前の問題</a>
+      <a href="q3.html" class="next-btn">次の問題 →</a>
+    </div>
   </main>
+
   <footer>
     <p>© 2025 間違い探しWeb</p>
   </footer>
+
   <script>
     function showAnswer() {
-      const ans = document.getElementById('answer');
-      ans.style.display = 'block';
+      document.getElementById('answer').style.display = 'block';
       document.querySelector('.show-btn').style.display = 'none';
     }
   </script>
