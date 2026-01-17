@@ -1,0 +1,222 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="ja-jp"
+  dir="ltr"
+><head><script src="/hobbies/madodora/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hobbies/madodora/livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>【まどドラ】ポートレートのアビリティによるソート機能について調べてみた - まどドラのキオク</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="11/29 のアップデートで、まどドラのポートレートソート機能に新たに「アビリティ」が追加されました。
+この機能を使った感想としては、
+「便利！神機能！」
+と言いたいところですが
+本心は
+「まあ、ないよりはマシかな&hellip;」
+といった感じです。
+未だにポートレートのイラストを見て判断する必要があるというのは残念でした&hellip;
+アビリティはどういう順番に並んでいるの？ さて、本題です。
+どういう順番になっているのか、表示されない&amp;公式からの発表もないため、調べました。
+昇順で、
+MP回復効率 スピード 攻撃力 最大HP 火属性で攻撃したとき、与えるダメージ 水属性で攻撃したとき、与えるダメージ 木属性で攻撃したとき、与えるダメージ 光属性で攻撃したとき、与えるダメージ 闇属性で攻撃したとき、与えるダメージ 無属性で攻撃したとき、与えるダメージ 弱点属性に対して与えるダメージ 戦闘スキルで与えるダメージ 必殺技で与えるダメージ 【追撃/反撃】の与えるダメージ 与える持続ダメージ 与えるダメージ クリティカル率 クリティカルダメージ デバフ命中率 状態異常命中率 状態異常耐性 HP回復量 ブレイク特攻 最大HP、攻撃力 与えるダメージ、防御力 攻撃力、防御力 最大HP、防御力 最大HP、スピード デバフ命中率、スピード 【{キオク名}に装備時に追加】 降順では上記の逆となります。
+ところで、作ったあとで言うのもあれですが、これは一体何の役に立つのでしょう？
+ソウルジェムが穢れてきたのでこの辺で失礼($・・)/~~" />
+  <meta name="author" content="まどドラのキオク" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/hobbies/madodora/main.min.aa6ea02b0eefe7db1bff5f6c623c536c742cbb74f94dbd38d2d905a87001ac2e.css" integrity="sha256-qm6gKw7v59sb/19sYjxTbHQsu3T5Tb040tkFqHABrC4=" />
+
+  
+  <link rel="preload" as="image" href="http://localhost:1313/hobbies/madodora/theme.png" />
+
+  
+
+  
+
+  <script
+    defer
+    src="http://localhost:1313/hobbies/madodora/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+
+  
+  <link
+    rel="icon"
+    href="http://localhost:1313/hobbies/madodora/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="http://localhost:1313/hobbies/madodora/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.131.0">
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="http://localhost:1313/hobbies/madodora/"
+      >まどドラのキオク</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? "rgb(0 0 0 / 85%)" : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  >
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">【まどドラ】ポートレートのアビリティによるソート機能について調べてみた</h1><div class="text-xs antialiased opacity-60"><time>Jan 17, 2026</time></div></header>
+
+  <section><p>11/29 のアップデートで、まどドラのポートレートソート機能に新たに「アビリティ」が追加されました。</p>
+<p><img src="https://blogger.googleusercontent.com/img/a/AVvXsEhPicKzujp-46ZirTm-8RcKnkowlNUpLbncO4QYNzJ9fjXpP_Qs3le9_3gcacOXzUqHZKIg5loOtMtoNkeG7fQWDJXcXouA5igzN1hquzxcKfQB5nR4csUHJC8UhQN_FrBayotTv-v7I9nSr7wgZX8BAvsELwOv0ke04jplC0KpsDsHNsbhxhUge3I5rcAb" alt="an update info of the sort func"></p>
+<p>この機能を使った感想としては、</p>
+<p>「便利！神機能！」</p>
+<p><strong>と言いたいところですが</strong></p>
+<p>本心は</p>
+<p><strong>「まあ、ないよりはマシかな&hellip;」</strong></p>
+<p>といった感じです。</p>
+<p>未だにポートレートのイラストを見て判断する必要があるというのは残念でした&hellip;</p>
+<h3 id="アビリティはどういう順番に並んでいるの">アビリティはどういう順番に並んでいるの？</h3>
+<p>さて、本題です。</p>
+<p>どういう順番になっているのか、表示されない&amp;公式からの発表もないため、調べました。</p>
+<p>昇順で、</p>
+<ol>
+<li>MP回復効率</li>
+<li>スピード</li>
+<li>攻撃力</li>
+<li>最大HP</li>
+<li>火属性で攻撃したとき、与えるダメージ</li>
+<li>水属性で攻撃したとき、与えるダメージ</li>
+<li>木属性で攻撃したとき、与えるダメージ </li>
+<li>光属性で攻撃したとき、与えるダメージ </li>
+<li>闇属性で攻撃したとき、与えるダメージ </li>
+<li>無属性で攻撃したとき、与えるダメージ</li>
+<li>弱点属性に対して与えるダメージ</li>
+<li>戦闘スキルで与えるダメージ</li>
+<li>必殺技で与えるダメージ</li>
+<li>【追撃/反撃】の与えるダメージ</li>
+<li>与える持続ダメージ</li>
+<li>与えるダメージ</li>
+<li>クリティカル率</li>
+<li>クリティカルダメージ </li>
+<li>デバフ命中率</li>
+<li> 状態異常命中率</li>
+<li>状態異常耐性</li>
+<li>HP回復量</li>
+<li>ブレイク特攻</li>
+<li>最大HP、攻撃力</li>
+<li>与えるダメージ、防御力</li>
+<li>攻撃力、防御力</li>
+<li>最大HP、防御力</li>
+<li>最大HP、スピード</li>
+<li> デバフ命中率、スピード</li>
+<li>【{キオク名}に装備時に追加】</li>
+</ol>
+<p>降順では上記の逆となります。</p>
+<p>ところで、作ったあとで言うのもあれですが、これは一体何の役に立つのでしょう？</p>
+<p>ソウルジェムが穢れてきたのでこの辺で失礼($・・)/~~</p>
+</section>
+
+  <nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:1313/hobbies/madodora/posts/freetenpulls/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>【まどドラ】12月31日 無料10連ガチャ開催</span></a
+    ><a
+      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
+      href="http://localhost:1313/hobbies/madodora/posts/crescentmemoriasongreleased/"
+      ><span>【まどドラ】Crescent Memoria テーマソング「旬ノ痞、夢ノ痣」が公開されました</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    ></nav></article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">&copy;2026
+    <a class="link" href="http://localhost:1313/hobbies/madodora/">まどドラのキオク</a></div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>
