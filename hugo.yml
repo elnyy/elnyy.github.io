@@ -2,3 +2,19 @@ baseURL: "https://elnyy.github.io/"
 title: elnyy
 paginate: 5
 theme: "PaperMod"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  disableThemeToggle: true
+  ShowReadingTime: true
+  ShowShareButton: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowWordCount: true
+  UseHugoToc: false 
+
+profileMode:
+  enabled: false
