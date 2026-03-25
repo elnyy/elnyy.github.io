@@ -1,4 +1,5 @@
 baseURL: "https://elnyy.github.io/"
+languageCode: "ja-JP"
 title: elnyy
 paginate: 5
 theme: "PaperMod"
