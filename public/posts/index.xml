@@ -6,8 +6,48 @@
     <description>Recent content in Posts on elnyy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 19:55:36 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 15:28:01 +0900</lastBuildDate>
     <atom:link href="https://elnyy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【まどドラ】イベントクエスト・リンクレイドの時短編成を紹介</title>
+      <link>https://elnyy.github.io/posts/daily-time-saving/</link>
+      <pubDate>Wed, 25 Mar 2026 15:28:01 +0900</pubDate>
+      <guid>https://elnyy.github.io/posts/daily-time-saving/</guid>
+      <description>&lt;p&gt;イベントクエスト・リンクレイドの毎日の消化を億劫に感じている人向けに、少しでも時短ができるであろう編成を紹介します。&lt;/p&gt;
+&lt;p&gt;早速ですが、こちらが時短編成です。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/saving-party.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;ポートレート・サポートは、後述するマミさんの特長を活かすためにスピード特化にしています。まばゆ未所持の方は眼鏡ほむらも可能です。また、マミさん単騎であることに驚くかもしれませんがこれも時短のためです。&lt;/p&gt;
+&lt;p&gt;この編成では、 &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;イベントクエスト &amp;hellip; すべてのBATTLEをほとんどワンパン&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;リンクレイド &amp;hellip; &lt;!-- raw HTML omitted --&gt;Lv.1&lt;!-- raw HTML omitted --&gt;ならワンパン&lt;/p&gt;
+&lt;p&gt;が可能です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;なぜマミさんなの&#34;&gt;なぜマミさんなの?&lt;/h2&gt;
+&lt;p&gt;マミさんの特長として、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;全体攻撃であること&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;スピードが速く、大抵先行できること&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;パーティーメンバーが一人で済むことから、ロード時間短縮&lt;/p&gt;
+&lt;p&gt;があります。
+イベントクエストでは、敵が複数体いることがほとんどなので早く倒したいなら全体攻撃キャラが必須です。また、敵から攻撃を受ける(=敵の攻撃モーションの時間分取られる)ことを避けるためにも、スピードが速いキャラを採用することが重要になります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;どのイベントクエストリンクレイドなら倒せるの&#34;&gt;どのイベントクエスト・リンクレイドなら倒せるの?&lt;/h2&gt;
+&lt;p&gt;イベントクエストはイベントの種類に関わらず毎回難易度が一定になっていると思われます。そのため、どのイベントでも倒せるかと思います。&lt;/p&gt;
+&lt;p&gt;リンクレイドに関しても、どのボスもLv.1なら問題なく倒せます。&lt;/p&gt;
+&lt;h2 id=&#34;敵が非推奨属性だけど倒せるの&#34;&gt;敵が非推奨属性だけど倒せるの?&lt;/h2&gt;
+&lt;p&gt;問題ありません。イベントクエスト・リンクレイドともに可能です。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Helloworld</title>
       <link>https://elnyy.github.io/posts/helloworld/</link>
