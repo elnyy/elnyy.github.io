@@ -1,2 +1,4 @@
 github.com/CaiJimmy/hugo-theme-stack/v4 v4.0.0-beta.15 h1:cGS2Vrgtq13J0vjLJkonH4o3afOvhvqD1Ih4C1OwsR8=
 github.com/CaiJimmy/hugo-theme-stack/v4 v4.0.0-beta.15/go.mod h1:6SWZIQIut6uVjxhLraexYzgtdNDrod0xnfM/to6D/1I=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20260308172054-10d3dcc0e05c h1:UYJTl/vtAFc1fMjhLNzhr9niW8TexCTkh0eAlAJdSRg=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20260308172054-10d3dcc0e05c/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=

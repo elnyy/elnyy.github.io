@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>elnyy</title>
-    <link>https://elnyy.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on elnyy</description>
     <generator>Hugo</generator>
     <language>ja-JP</language>
     <lastBuildDate>Wed, 25 Mar 2026 15:28:01 +0900</lastBuildDate>
-    <atom:link href="https://elnyy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【まどドラ】イベントクエスト・リンクレイドの時短編成を紹介</title>
-      <link>https://elnyy.github.io/posts/daily-time-saving/</link>
+      <link>http://localhost:1313/posts/daily-time-saving/</link>
       <pubDate>Wed, 25 Mar 2026 15:28:01 +0900</pubDate>
-      <guid>https://elnyy.github.io/posts/daily-time-saving/</guid>
+      <guid>http://localhost:1313/posts/daily-time-saving/</guid>
       <description>&lt;p&gt;今回は、イベントクエスト・リンクレイドのデイリー消化を億劫に感じている人向けに、戦闘時間減らすことで少しでも時短ができる編成を紹介します。
 &lt;del&gt;&lt;strong&gt;まあ、戦闘時間どれだけ時短できても億劫なことには変わりないけどね&lt;/strong&gt;&lt;/del&gt;。長々と語っていますが半分はネタ記事として楽しんでいただけたら幸いです。&lt;/p&gt;
 &lt;h2 id=&#34;マミ単騎の時短編成&#34;&gt;マミ単騎の時短編成&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/saving-party.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/saving-party.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;ポートレート・サポートは、後述するマミさんの特長を活かすためにスピード特化にしています。まばゆ未所持の場合は眼鏡ほむらも可能です。&lt;/p&gt;
 &lt;p&gt;この編成では、 &lt;/p&gt;
 &lt;ul&gt;
@@ -53,9 +53,9 @@
     </item>
     <item>
       <title>Helloworld</title>
-      <link>https://elnyy.github.io/posts/helloworld/</link>
+      <link>http://localhost:1313/posts/helloworld/</link>
       <pubDate>Tue, 24 Mar 2026 19:55:36 +0900</pubDate>
-      <guid>https://elnyy.github.io/posts/helloworld/</guid>
+      <guid>http://localhost:1313/posts/helloworld/</guid>
       <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;
 &lt;h2 id=&#34;hello-world-&#34;&gt;Hello World ?&lt;/h2&gt;
 &lt;h3 id=&#34;hello-world--1&#34;&gt;Hello World ??&lt;/h3&gt;
