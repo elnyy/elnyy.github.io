@@ -2,7 +2,7 @@ baseURL: "https://elnyy.github.io/"
 defaultContentLanguage: "ja"
 title: elnyy
 paginate: 5
-theme: papermod
+theme: PaperMod
 
 minify:
   disableXML: true
