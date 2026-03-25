@@ -1,12 +1,8 @@
 baseURL: "https://elnyy.github.io/"
-languageCode: "ja-JP"
+defaultContentLanguage: "ja"
 title: elnyy
 paginate: 5
-theme: "PaperMod"
-
-module:
-  imports:
-  - path: github.com/adityatelange/hugo-PaperMod
+theme: papermod
 
 minify:
   disableXML: true
@@ -23,3 +19,28 @@ params:
 
 profileMode:
   enabled: false
+
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - JSON # necessary for search
