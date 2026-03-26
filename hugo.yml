@@ -11,10 +11,9 @@ minify:
 params:
   disableThemeToggle: true
   ShowReadingTime: true
-  ShowShareButton: true
   ShowPostNavLinks: true
+  ShowShareButton: true
   ShowBreadCrumbs: true
-  ShowWordCount: true
   UseHugoToc: false 
 
 profileMode:
