@@ -5,7 +5,7 @@ categories: ["game"]
 tags: ["まどドラ"]
 showToc: true
 cover:
-  image: https://pbs.twimg.com/profile_banners/1777865487755718656/1761897294/600x200
+  image: /images/saving-party.png
 ---
 
 日々のイベントクエスト・リンクレイドを時短で終わらせるために私が使っている編成について説明します。
