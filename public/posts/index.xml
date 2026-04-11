@@ -1,61 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on elnyy</title>
     <link>https://elnyy.github.io/posts/</link>
     <description>Recent content in Posts on elnyy</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Mar 2026 15:28:01 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 05:15:26 +0000</lastBuildDate>
     <atom:link href="https://elnyy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>今日のご飯</title>
+      <link>https://elnyy.github.io/posts/dinner-260411/</link>
+      <pubDate>Sat, 11 Apr 2026 05:15:26 +0000</pubDate>
+      <guid>https://elnyy.github.io/posts/dinner-260411/</guid>
+      <description>&lt;p&gt;今日のメニューです。&#xA;&lt;a href=&#34;&#34;&gt;!https://scontent-nrt1-1.cdninstagram.com/v/t51.82787-15/657876114_18086345603462260_3160262427591531503_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08_tt6&amp;amp;_nc_cat=103&amp;amp;ig_cache_key=Mzg2Nzc5NzM0NDc5MTY0MzUwNQ%3D%3D.3-ccb7-5&amp;amp;ccb=7-5&amp;amp;_nc_sid=58cdad&amp;amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNzl4MjA5Ni5zZHIuQzMifQ%3D%3D&amp;amp;_nc_ohc=bAyb4csOQbQQ7kNvwFsLPrf&amp;amp;_nc_oc=AdoMKBo-fwdgD1q1MNBRNXx6lpz141WJYe3BZni7XCBTCCk3iZEIb-uJ6X8I0BmQVxw&amp;amp;_nc_ad=z-m&amp;amp;_nc_cid=0&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-nrt1-1.cdninstagram.com&amp;amp;_nc_gid=hlqc4sS9JGebkDkHXe6OAA&amp;amp;_nc_ss=7a32e&amp;amp;oh=00_Af2DAwX9S9NyFDCCdj5gQRN3Bkpsu4rXE7cyv3QDXcubdg&amp;amp;oe=69DFB94D&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>【まどドラ】イベントクエスト・リンクレイドの時短編成</title>
       <link>https://elnyy.github.io/posts/daily-time-saving/</link>
       <pubDate>Wed, 25 Mar 2026 15:28:01 +0900</pubDate>
       <guid>https://elnyy.github.io/posts/daily-time-saving/</guid>
-      <description>&lt;p&gt;日々のイベントクエスト・リンクレイドを時短で終わらせるために私が使っている編成について説明します。&lt;/p&gt;
-&lt;h2 id=&#34;マミ単騎の時短編成&#34;&gt;マミ単騎の時短編成&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/saving-party.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;ポートレート・サポートは、後述するマミさんの特長を活かすためにスピード特化にしています。まばゆ未所持の場合は眼鏡ほむらも可能です。&lt;/p&gt;
-&lt;p&gt;この編成では、 &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;イベントクエスト &amp;hellip; すべてのBATTLEをほとんどワンパン&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;リンクレイド &amp;hellip; &lt;!-- raw HTML omitted --&gt;Lv.1&lt;!-- raw HTML omitted --&gt;ならボスを選ばずワンパン&lt;/p&gt;
-&lt;p&gt;が可能です。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;なぜマミさんなのか&#34;&gt;なぜマミさんなのか?&lt;/h2&gt;
-&lt;p&gt;マミさんの特長として、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;全体攻撃ができること&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;スピードが速く、大抵先行できること&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;があります。&lt;/p&gt;
-&lt;p&gt;イベントクエストでは、敵が複数体いることがほとんどなので早く倒したいなら全体攻撃キャラが必須です。また、敵から攻撃を受ける(=敵の攻撃モーションの時間分取られる)ことを避けるためにも、スピードが速いキャラを採用することが重要になります。
-マミさん単騎で済むことから、ロード時間の短縮にもなります。&lt;/p&gt;
-&lt;h2 id=&#34;どのイベントクエストリンクレイドなら倒せるの&#34;&gt;どのイベントクエスト・リンクレイドなら倒せるの?&lt;/h2&gt;
-&lt;p&gt;イベントクエストはイベントの種類に関わらず毎回難易度が一定になっていると思われます。そのため、どのイベントでも安定して倒せるかと思います。&lt;/p&gt;
-&lt;p&gt;リンクレイドに関しても、どのボスもLv.1なら問題なく倒せます。&lt;/p&gt;
-&lt;h2 id=&#34;敵が非推奨属性だけど倒せる&#34;&gt;敵が非推奨属性だけど倒せる?&lt;/h2&gt;
-&lt;p&gt;イベントクエスト・リンクレイドともに問題なく倒せます。&lt;/p&gt;</description>
+      <description>&lt;p&gt;日々のイベントクエスト・リンクレイドを時短で終わらせるために私が使っている編成について説明します。&lt;/p&gt;&#xA;&lt;h2 id=&#34;マミ単騎の時短編成&#34;&gt;マミ単騎の時短編成&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://elnyy.github.io/images/saving-party.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;ポートレート・サポートは、後述するマミさんの特長を活かすためにスピード特化にしています。まばゆ未所持の場合は眼鏡ほむらも可能です。&lt;/p&gt;&#xA;&lt;p&gt;この編成では、 &lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;イベントクエスト &amp;hellip; すべてのBATTLEをほとんどワンパン&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;リンクレイド &amp;hellip; &lt;!-- raw HTML omitted --&gt;Lv.1&lt;!-- raw HTML omitted --&gt;ならボスを選ばずワンパン&lt;/p&gt;&#xA;&lt;p&gt;が可能です。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;なぜマミさんなのか&#34;&gt;なぜマミさんなのか?&lt;/h2&gt;&#xA;&lt;p&gt;マミさんの特長として、&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;全体攻撃ができること&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;スピードが速く、大抵先行できること&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;があります。&lt;/p&gt;&#xA;&lt;p&gt;イベントクエストでは、敵が複数体いることがほとんどなので早く倒したいなら全体攻撃キャラが必須です。また、敵から攻撃を受ける(=敵の攻撃モーションの時間分取られる)ことを避けるためにも、スピードが速いキャラを採用することが重要になります。&#xA;マミさん単騎で済むことから、ロード時間の短縮にもなります。&lt;/p&gt;&#xA;&lt;h2 id=&#34;どのイベントクエストリンクレイドなら倒せるの&#34;&gt;どのイベントクエスト・リンクレイドなら倒せるの?&lt;/h2&gt;&#xA;&lt;p&gt;イベントクエストはイベントの種類に関わらず毎回難易度が一定になっていると思われます。そのため、どのイベントでも安定して倒せるかと思います。&lt;/p&gt;&#xA;&lt;p&gt;リンクレイドに関しても、どのボスもLv.1なら問題なく倒せます。&lt;/p&gt;&#xA;&lt;h2 id=&#34;敵が非推奨属性だけど倒せる&#34;&gt;敵が非推奨属性だけど倒せる?&lt;/h2&gt;&#xA;&lt;p&gt;イベントクエスト・リンクレイドともに問題なく倒せます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Helloworld</title>
       <link>https://elnyy.github.io/posts/helloworld/</link>
       <pubDate>Tue, 24 Mar 2026 19:55:36 +0900</pubDate>
       <guid>https://elnyy.github.io/posts/helloworld/</guid>
-      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;
-&lt;h2 id=&#34;hello-world-&#34;&gt;Hello World ?&lt;/h2&gt;
-&lt;h3 id=&#34;hello-world--1&#34;&gt;Hello World ??&lt;/h3&gt;
-&lt;h1 id=&#34;hello-world-1&#34;&gt;Hello World.&lt;/h1&gt;
-&lt;p&gt;This is an experiment of TOC lol&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;&#xA;&lt;h2 id=&#34;hello-world-&#34;&gt;Hello World ?&lt;/h2&gt;&#xA;&lt;h3 id=&#34;hello-world--1&#34;&gt;Hello World ??&lt;/h3&gt;&#xA;&lt;h1 id=&#34;hello-world-1&#34;&gt;Hello World.&lt;/h1&gt;&#xA;&lt;p&gt;This is an experiment of TOC lol&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

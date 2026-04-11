@@ -1,7 +1,7 @@
 baseURL: "https://elnyy.github.io/"
 defaultContentLanguage: "ja"
 title: elnyy
-paginate: 5
+pagination.pagerSize: 5
 theme: PaperMod
 
 minify:
