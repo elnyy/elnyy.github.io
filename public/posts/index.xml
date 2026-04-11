@@ -2,28 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on elnyy</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://elnyy.github.io/posts/</link>
     <description>Recent content in Posts on elnyy</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 11 Apr 2026 05:15:26 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://elnyy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>今日のご飯</title>
-      <link>http://localhost:1313/posts/dinner-260411/</link>
+      <title>学生寮 学食紹介(4/11)</title>
+      <link>https://elnyy.github.io/posts/dinner-260411/</link>
       <pubDate>Sat, 11 Apr 2026 05:15:26 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dinner-260411/</guid>
-      <description>&lt;p&gt;今日のメニューです。
-&lt;img alt=&#34;Menu&#34; loading=&#34;lazy&#34; src=&#34;https://scontent-nrt1-1.cdninstagram.com/v/t51.82787-15/657876114_18086345603462260_3160262427591531503_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08_tt6&amp;_nc_cat=103&amp;ig_cache_key=Mzg2Nzc5NzM0NDc5MTY0MzUwNQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNzl4MjA5Ni5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=bAyb4csOQbQQ7kNvwFsLPrf&amp;_nc_oc=AdoMKBo-fwdgD1q1MNBRNXx6lpz141WJYe3BZni7XCBTCCk3iZEIb-uJ6X8I0BmQVxw&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-nrt1-1.cdninstagram.com&amp;_nc_gid=hlqc4sS9JGebkDkHXe6OAA&amp;_nc_ss=7a32e&amp;oh=00_Af2DAwX9S9NyFDCCdj5gQRN3Bkpsu4rXE7cyv3QDXcubdg&amp;oe=69DFB94D&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://elnyy.github.io/posts/dinner-260411/</guid>
+      <description>&lt;h2 id=&#34;411夜のメニュー&#34;&gt;4/11、夜のメニュー&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;タンドリーチキン&lt;/li&gt;
+&lt;li&gt;ミックススロー&lt;/li&gt;
+&lt;li&gt;フレンチフライ&lt;/li&gt;
+&lt;li&gt;トマト&lt;/li&gt;
+&lt;li&gt;スープ(玉葱、わかめ)
+合計993Kcalとなっています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;タンドリーチキンについて少し&#34;&gt;タンドリーチキンについて少し&lt;/h2&gt;
+&lt;p&gt;タンドリーチキンは、&lt;strong&gt;インド亜大陸&lt;/strong&gt;が発祥の鶏肉料理です。
+ちなみに、インド亜大陸とは? ウィキによると&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;南アジアのインド・バングラデシュ・パキスタン・ネパール・ブータンなどの国々を含む亜大陸・半島。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;だそうです。
+地図で見るとこんな感じです
+&lt;img loading=&#34;lazy&#34; src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Indian_Subcontinent_%28orthographic_projection%29.svg/960px-Indian_Subcontinent_%28orthographic_projection%29.svg.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>【まどドラ】イベントクエスト・リンクレイドの時短編成</title>
-      <link>http://localhost:1313/posts/daily-time-saving/</link>
+      <link>https://elnyy.github.io/posts/daily-time-saving/</link>
       <pubDate>Wed, 25 Mar 2026 15:28:01 +0900</pubDate>
-      <guid>http://localhost:1313/posts/daily-time-saving/</guid>
+      <guid>https://elnyy.github.io/posts/daily-time-saving/</guid>
       <description>&lt;p&gt;日々のイベントクエスト・リンクレイドを時短で終わらせるために私が使っている編成について説明します。&lt;/p&gt;
 &lt;h2 id=&#34;マミ単騎の時短編成&#34;&gt;マミ単騎の時短編成&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/saving-party.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/saving-party.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;ポートレート・サポートは、後述するマミさんの特長を活かすためにスピード特化にしています。まばゆ未所持の場合は眼鏡ほむらも可能です。&lt;/p&gt;
 &lt;p&gt;この編成では、 &lt;/p&gt;
 &lt;ul&gt;
@@ -56,9 +70,9 @@
     </item>
     <item>
       <title>Helloworld</title>
-      <link>http://localhost:1313/posts/helloworld/</link>
+      <link>https://elnyy.github.io/posts/helloworld/</link>
       <pubDate>Tue, 24 Mar 2026 19:55:36 +0900</pubDate>
-      <guid>http://localhost:1313/posts/helloworld/</guid>
+      <guid>https://elnyy.github.io/posts/helloworld/</guid>
       <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;
 &lt;h2 id=&#34;hello-world-&#34;&gt;Hello World ?&lt;/h2&gt;
 &lt;h3 id=&#34;hello-world--1&#34;&gt;Hello World ??&lt;/h3&gt;

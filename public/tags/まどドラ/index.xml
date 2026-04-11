@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>まどドラ on elnyy</title>
-    <link>http://localhost:1313/tags/%E3%81%BE%E3%81%A9%E3%83%89%E3%83%A9/</link>
+    <link>https://elnyy.github.io/tags/%E3%81%BE%E3%81%A9%E3%83%89%E3%83%A9/</link>
     <description>Recent content in まどドラ on elnyy</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 25 Mar 2026 15:28:01 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E3%81%BE%E3%81%A9%E3%83%89%E3%83%A9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://elnyy.github.io/tags/%E3%81%BE%E3%81%A9%E3%83%89%E3%83%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【まどドラ】イベントクエスト・リンクレイドの時短編成</title>
-      <link>http://localhost:1313/posts/daily-time-saving/</link>
+      <link>https://elnyy.github.io/posts/daily-time-saving/</link>
       <pubDate>Wed, 25 Mar 2026 15:28:01 +0900</pubDate>
-      <guid>http://localhost:1313/posts/daily-time-saving/</guid>
+      <guid>https://elnyy.github.io/posts/daily-time-saving/</guid>
       <description>&lt;p&gt;日々のイベントクエスト・リンクレイドを時短で終わらせるために私が使っている編成について説明します。&lt;/p&gt;
 &lt;h2 id=&#34;マミ単騎の時短編成&#34;&gt;マミ単騎の時短編成&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/saving-party.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/saving-party.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;ポートレート・サポートは、後述するマミさんの特長を活かすためにスピード特化にしています。まばゆ未所持の場合は眼鏡ほむらも可能です。&lt;/p&gt;
 &lt;p&gt;この編成では、 &lt;/p&gt;
 &lt;ul&gt;

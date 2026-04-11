@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on elnyy</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://elnyy.github.io/categories/</link>
     <description>Recent content in Categories on elnyy</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 25 Mar 2026 15:28:01 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://elnyy.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game</title>
-      <link>http://localhost:1313/categories/game/</link>
+      <link>https://elnyy.github.io/categories/game/</link>
       <pubDate>Wed, 25 Mar 2026 15:28:01 +0900</pubDate>
-      <guid>http://localhost:1313/categories/game/</guid>
+      <guid>https://elnyy.github.io/categories/game/</guid>
       <description></description>
     </item>
   </channel>

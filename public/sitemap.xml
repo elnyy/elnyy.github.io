@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://elnyy.github.io/</loc>
     <lastmod>2026-04-11T05:15:26+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://elnyy.github.io/posts/</loc>
     <lastmod>2026-04-11T05:15:26+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/dinner-260411/</loc>
+    <loc>https://elnyy.github.io/posts/dinner-260411/</loc>
     <lastmod>2026-04-11T05:15:26+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily-time-saving/</loc>
+    <loc>https://elnyy.github.io/posts/daily-time-saving/</loc>
     <lastmod>2026-03-25T15:28:01+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://elnyy.github.io/categories/</loc>
     <lastmod>2026-03-25T15:28:01+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/game/</loc>
+    <loc>https://elnyy.github.io/categories/game/</loc>
     <lastmod>2026-03-25T15:28:01+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://elnyy.github.io/tags/</loc>
     <lastmod>2026-03-25T15:28:01+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E3%81%BE%E3%81%A9%E3%83%89%E3%83%A9/</loc>
+    <loc>https://elnyy.github.io/tags/%E3%81%BE%E3%81%A9%E3%83%89%E3%83%A9/</loc>
     <lastmod>2026-03-25T15:28:01+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/helloworld/</loc>
+    <loc>https://elnyy.github.io/posts/helloworld/</loc>
     <lastmod>2026-03-24T19:55:36+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://elnyy.github.io/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://elnyy.github.io/search/</loc>
   </url>
 </urlset>
