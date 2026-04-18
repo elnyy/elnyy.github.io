@@ -6,8 +6,42 @@
     <description>Recent content in Game on elnyy</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Mar 2026 15:28:01 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 11:34:17 +0000</lastBuildDate>
     <atom:link href="https://elnyy.github.io/categories/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【まどドラ】★4梨花のフルオート時の挙動について</title>
+      <link>https://elnyy.github.io/posts/rika-fa/</link>
+      <pubDate>Sat, 18 Apr 2026 11:34:17 +0000</pubDate>
+      <guid>https://elnyy.github.io/posts/rika-fa/</guid>
+      <description>&lt;p&gt;こんにちは、今回はタイトルの通り★4梨花のフルオート時の挙動について紹介します。&lt;/p&gt;
+&lt;p&gt;冗長な前置きなどはしません、早速本題に入りましょう&lt;/p&gt;
+&lt;p&gt;結論から書きますと、梨花は以下の優先順位で戦闘スキルを発動します↓&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ブレーカーまたはアタッカーのキャラ&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;所持MPが最も少ないキャラ&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;実験用に以下のようなパーティーを用意してみました。ポートレートやサポートは適当ですがお気になさらず。
+&lt;img alt=&#34;梨花パーティー&#34; loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/rika-party.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;まず、バトル開始時に梨花が行動します。(スクショのためFA切っています)&lt;/p&gt;
+&lt;p&gt;バトル開始時点で、レナのMPが50、それ以外のキャラはMP0の状態です。
+&lt;img alt=&#34;梨花のバトル1&#34; loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/rika-party-battle1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;梨花の戦闘スキルはまどかにかかりました。先述した結論どうりの挙動ですね。
+&lt;img alt=&#34;梨花のバトル2&#34; loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/rika-party-battle2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;なお、ブレーカーまたはアタッカーのキャラが優先されるのはそうなんですが、パーティーにどちらのロールも存在する場合どうなるのでしょうか?&lt;/p&gt;
+&lt;p&gt;上記と同様のパーティーで6回検証した結果です↓&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1回目：まどか&lt;/li&gt;
+&lt;li&gt;2回目：まどか&lt;/li&gt;
+&lt;li&gt;3回目：まどか&lt;/li&gt;
+&lt;li&gt;4回目：おりこ&lt;/li&gt;
+&lt;li&gt;5回目：まどか&lt;/li&gt;
+&lt;li&gt;6回目：おりこ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;同じパーティーでこの結果になると、ランダムと考えてよさそうです。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;MPが優先順位の判断材料となると、サポートやポートレートでの調整が厳しい分、まばゆや葉月と比べて扱いが難しいですね。&lt;/p&gt;
+&lt;p&gt;これからMPを早い段階で獲得できる何かがもっと追加されればフルオートでの出番も多くなるかもしれません。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>【まどドラ】イベントクエスト・リンクレイドの時短編成</title>
       <link>https://elnyy.github.io/posts/daily-time-saving/</link>
