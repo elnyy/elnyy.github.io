@@ -6,8 +6,163 @@
     <description>Recent content in Posts on elnyy</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Mar 2026 15:28:01 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 11:34:17 +0000</lastBuildDate>
     <atom:link href="https://elnyy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【まどドラ】★4梨花のフルオート時の挙動について</title>
+      <link>https://elnyy.github.io/posts/rika-fa/</link>
+      <pubDate>Sat, 18 Apr 2026 11:34:17 +0000</pubDate>
+      <guid>https://elnyy.github.io/posts/rika-fa/</guid>
+      <description>&lt;p&gt;こんにちは、今回はタイトルの通り★4梨花のフルオート時の挙動について紹介します。&lt;/p&gt;
+&lt;p&gt;冗長な前置きなどはしません、早速本題に入りましょう&lt;/p&gt;
+&lt;p&gt;結論から書きますと、梨花は以下の優先順位で戦闘スキルを発動します↓&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ブレーカーまたはアタッカーのキャラ&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;所持MPが最も少ないキャラ&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;実験用に以下のようなパーティーを用意してみました。ポートレートやサポートは適当ですがお気になさらず。
+&lt;img alt=&#34;梨花パーティー&#34; loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/rika-party.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;まず、バトル開始時に梨花が行動します。(スクショのためFA切っています)&lt;/p&gt;
+&lt;p&gt;バトル開始時点で、レナのMPが50、それ以外のキャラはMP0の状態です。
+&lt;img alt=&#34;梨花のバトル1&#34; loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/rika-party-battle1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;梨花の戦闘スキルはまどかにかかりました。先述した結論どうりの挙動ですね。
+&lt;img alt=&#34;梨花のバトル2&#34; loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/rika-party-battle2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;なお、ブレーカーまたはアタッカーのキャラが優先されるのはそうなんですが、パーティーにどちらのロールも存在する場合どうなるのでしょうか?&lt;/p&gt;
+&lt;p&gt;上記と同様のパーティーで6回検証した結果です↓&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1回目：まどか&lt;/li&gt;
+&lt;li&gt;2回目：まどか&lt;/li&gt;
+&lt;li&gt;3回目：まどか&lt;/li&gt;
+&lt;li&gt;4回目：おりこ&lt;/li&gt;
+&lt;li&gt;5回目：まどか&lt;/li&gt;
+&lt;li&gt;6回目：おりこ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;同じパーティーでこの結果になると、ランダムと考えてよさそうです。&lt;/p&gt;
+&lt;p&gt;MPが優先順位の判断材料となると、サポートやポートレートでの調整が厳しい分、まばゆや葉月と比べて扱いが難しいですね。&lt;/p&gt;
+&lt;p&gt;これからMPを早い段階で獲得できる何かがもっと追加されればフルオートでの出番も多くなるかもしれません。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(Linux) exitコマンドとは？使い方をわかりやすく解説</title>
+      <link>https://elnyy.github.io/posts/exit/</link>
+      <pubDate>Sat, 18 Apr 2026 09:19:16 +0000</pubDate>
+      <guid>https://elnyy.github.io/posts/exit/</guid>
+      <description>&lt;p&gt;Linuxを使っていると、ターミナルやSSH接続の終了時に「exit」というコマンドによくお世話になります。このexitは非常にシンプルですが、システム操作において重要な役割を持っています。しかし、初心者のうちはいつ使うのか分かりにくいコマンドのひとつかもしれません。&lt;/p&gt;
+&lt;h2 id=&#34;exitとは&#34;&gt;exitとは&lt;/h2&gt;
+&lt;p&gt;exitは、その名前の通り「終了する」ためのコマンドです。Linuxのシェル（ターミナルの操作環境）やSSH接続、スクリプトの実行など、さまざまな場面で現在のセッションを終了するために使われます。&lt;/p&gt;
+&lt;p&gt;つまり、作業している環境から抜けるときに使う基本的なコマンドです。&lt;/p&gt;
+&lt;h2 id=&#34;基本的な使い方&#34;&gt;基本的な使い方&lt;/h2&gt;
+&lt;p&gt;引数いらずシンプルに実行です。
+コマンド例&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ exit
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;このコマンド実行すると、現在開いているシェルが終了します。ターミナルを直接開いている場合はウィンドウが閉じるか、元の状態に戻ります。&lt;/p&gt;
+&lt;h2 id=&#34;ssh接続でのexitの使い方&#34;&gt;SSH接続でのexitの使い方&lt;/h2&gt;
+&lt;p&gt;リモートサーバーにSSH接続している場合、exitは特に重要です。&lt;/p&gt;
+&lt;p&gt;例えば次のような状況です。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ ssh user@server
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;このようにサーバーへログインしたあと、作業が終わったら&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ exit
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;と入力することで、リモートサーバーとの接続が切断され、ローカル環境に戻ることができます。&lt;/p&gt;
+&lt;p&gt;これはログアウト操作とほぼ同じ意味になります。&lt;/p&gt;
+&lt;h2 id=&#34;複数のシェルを開いている場合&#34;&gt;複数のシェルを開いている場合&lt;/h2&gt;
+&lt;p&gt;ターミナルの中でさらにシェルを起動している場合、exitはその一つ一つの階層を抜けるために使われます。&lt;/p&gt;
+&lt;p&gt;例えば&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ bash
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;で新しいシェルに入った場合、exitを実行すると一段階前のシェルに戻ります。さらにもう一度exitを実行すると、最初のターミナルに戻るというように、階層的に終了していきます。&lt;/p&gt;
+&lt;h2 id=&#34;exitの戻り値&#34;&gt;exitの戻り値&lt;/h2&gt;
+&lt;p&gt;exitでは終了ステータスを引数として渡すことができます。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ exit 0
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;このように数字を指定することで、終了時の状態をシステムに伝えることができます。一般的に0は正常終了、それ以外の数字はエラーを意味します。&lt;/p&gt;
+&lt;p&gt;スクリプトの中でもよく使われる重要な概念です。&lt;/p&gt;
+&lt;h2 id=&#34;シェルスクリプトでのexit&#34;&gt;シェルスクリプトでのexit&lt;/h2&gt;
+&lt;p&gt;bashスクリプトの中でもexitは頻繁に使われます。&lt;/p&gt;
+&lt;p&gt;例えば&lt;/p&gt;
+&lt;p&gt;ある条件で処理を終了したい場合や、エラーが発生した時点で処理を止めたい場合などに使います。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ exit 1
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;のように書くことで、その時点でスクリプト全体の実行を終了できます。&lt;/p&gt;
+&lt;h2 id=&#34;注意点&#34;&gt;注意点&lt;/h2&gt;
+&lt;p&gt;exitは非常にシンプルですが、実行するとそのセッションが終了するため注意が必要です。&lt;/p&gt;
+&lt;p&gt;特にSSH接続中に作業途中でexitを実行してしまうと、その時点で接続が切れてしまい、未保存の作業が失われる可能性があります。&lt;/p&gt;
+&lt;p&gt;また、複数の作業を同時に行っている場合は、どのシェルを終了しているのかを意識することも重要です。&lt;/p&gt;
+&lt;p&gt;まとめ&lt;/p&gt;
+&lt;p&gt;exitはLinuxの中でも非常に基本的なコマンドでありながら、システム操作の終了という重要な役割を持っています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;シェルの終了&lt;/li&gt;
+&lt;li&gt;SSH接続のログアウト&lt;/li&gt;
+&lt;li&gt;スクリプトの終了制御&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このようにさまざまな場面で使われるため、Linuxを扱う上では必ず理解しておきたいコマンドのひとつです。&lt;/p&gt;
+&lt;p&gt;特に初心者のうちは「とりあえず抜けたいときに使うコマンド」として覚えておくと便利ですが、慣れてきたら終了ステータスなども使いこなせるようになるといいです。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(Linux) catコマンドとは？使い方をわかりやすく解説</title>
+      <link>https://elnyy.github.io/posts/cat/</link>
+      <pubDate>Sat, 18 Apr 2026 08:59:27 +0000</pubDate>
+      <guid>https://elnyy.github.io/posts/cat/</guid>
+      <description>&lt;p&gt;Linuxを使い始めると、最初の方で必ず出てくるコマンドのひとつがcatコマンドです。とてもシンプルなコマンドですが、テキストファイルの内容を見たいときなど、日常的な作業で頻繁に使われます。初心者でも覚えやすい一方、実務でも役に立つ重要なコマンドです。&lt;/p&gt;
+&lt;h2 id=&#34;catコマンドとは&#34;&gt;catコマンドとは&lt;/h2&gt;
+&lt;p&gt;catは「concatenate（連結する）」の略です。本来は複数のファイルをつなげるためのコマンドですが、現在では主にファイルの中身を表示する用途で使われることが多いです。&lt;/p&gt;
+&lt;p&gt;Linuxの基本操作の中でも使用頻度が高く、最初に覚えておくべきコマンドのひとつです。&lt;/p&gt;
+&lt;h2 id=&#34;catコマンドでファイルの中身を表示する&#34;&gt;catコマンドでファイルの中身を表示する&lt;/h2&gt;
+&lt;p&gt;最も基本的な使い方は、ファイルの内容を表示することです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コマンド例
+&lt;code&gt;$ cat ファイル名&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;例えば、sample.txtというファイルの中身を見たい場合は次のように入力します。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ cat sample.txt&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;実行すると、ターミナル上にファイルの中身がそのまま表示されます。非常にシンプルで直感的な使い方ですね。&lt;/p&gt;
+&lt;h2 id=&#34;複数ファイルの内容をまとめて表示する&#34;&gt;複数ファイルの内容をまとめて表示する&lt;/h2&gt;
+&lt;p&gt;複数のファイルを同時に扱うこともできます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コマンド例&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cat sample1.txt sample2.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;この場合、sample1.txtの内容が表示されたあとにsample2.txtの内容が続けて表示されます。ファイルをまとめて確認したいときに便利です。&lt;/p&gt;
+&lt;h2 id=&#34;新しいファイルを作成する&#34;&gt;新しいファイルを作成する&lt;/h2&gt;
+&lt;p&gt;ファイルを作成することもできます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コマンド例&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cat &amp;gt; newsample.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;このコマンドを実行すると入力待ち状態になり、そこに文字を入力していきます。入力が終わったらCtrl + Dを押すことで保存されます。&lt;/p&gt;
+&lt;p&gt;ちょっとしたメモ作成などに使える方法です。&lt;/p&gt;
+&lt;h2 id=&#34;既存ファイルに追記する&#34;&gt;既存ファイルに追記する&lt;/h2&gt;
+&lt;p&gt;すでに存在するファイルに内容を追加したい場合は次のようにします。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コマンド例&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cat &amp;gt;&amp;gt; sample.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;この状態で入力した内容は、sample.txtの末尾に追加されます。ログの追記や簡単な記録追加などに使えます。&lt;/p&gt;
+&lt;h2 id=&#34;ファイルの結合&#34;&gt;ファイルの結合&lt;/h2&gt;
+&lt;p&gt;catコマンドの本来の用途であるファイル結合も重要です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コマンド例&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cat sample1.txt sample2.txt &amp;gt; merged.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;このコマンドを実行すると、sample1.txtとfile2.txtの内容が結合され、新しくmerged.txtとして保存されます。&lt;/p&gt;
+&lt;p&gt;複数のテキストファイルをひとつにまとめたいときに非常に便利です。&lt;/p&gt;
+&lt;h2 id=&#34;便利なオプション&#34;&gt;便利なオプション&lt;/h2&gt;
+&lt;p&gt;痒い所に手が届くオプションがありますので使いこなせるようになりましょう&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;行番号を表示する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cat -n sample.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;プログラムの確認やログ解析のときに役立ちます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;空行をまとめる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cat -s sample.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;連続した空行を1行にまとめて表示できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;制御文字も表示する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cat -A sample.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;タブや改行などの特殊文字を可視化できます。&lt;/p&gt;
+&lt;h2 id=&#34;注意点&#34;&gt;注意点&lt;/h2&gt;
+&lt;p&gt;catコマンドは非常に便利ですが、大きなファイルには注意が必要です。&lt;/p&gt;
+&lt;p&gt;例えば数GBあるログファイルに対して使うと、画面に大量の文字が一気に表示されてしまい、ターミナルが見づらくなることがあります。&lt;/p&gt;
+&lt;p&gt;そのような場合はlessコマンドのようなページ送りできるコマンドを使う方がいいでしょう。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>【まどドラ】イベントクエスト・リンクレイドの時短編成</title>
       <link>https://elnyy.github.io/posts/daily-time-saving/</link>
