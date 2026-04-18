@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on elnyy</title>
-    <link>https://elnyy.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on elnyy</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 18 Apr 2026 11:34:17 +0000</lastBuildDate>
-    <atom:link href="https://elnyy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【まどドラ】★4梨花のフルオート時の挙動について</title>
-      <link>https://elnyy.github.io/posts/rika-fa/</link>
+      <link>http://localhost:1313/posts/rika-fa/</link>
       <pubDate>Sat, 18 Apr 2026 11:34:17 +0000</pubDate>
-      <guid>https://elnyy.github.io/posts/rika-fa/</guid>
+      <guid>http://localhost:1313/posts/rika-fa/</guid>
       <description>&lt;p&gt;こんにちは、今回はタイトルの通り★4梨花のフルオート時の挙動について紹介します。&lt;/p&gt;
 &lt;p&gt;冗長な前置きなどはしません、早速本題に入りましょう&lt;/p&gt;
 &lt;p&gt;結論から書きますと、梨花は以下の優先順位で戦闘スキルを発動します↓&lt;/p&gt;
@@ -21,12 +21,13 @@
 &lt;li&gt;&lt;strong&gt;所持MPが最も少ないキャラ&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;実験用に以下のようなパーティーを用意してみました。ポートレートやサポートは適当ですがお気になさらず。
-&lt;img alt=&#34;梨花パーティー&#34; loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/rika-party.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;まず、バトル開始時に梨花が行動します。(スクショのためFA切っています)&lt;/p&gt;
+&lt;img alt=&#34;梨花パーティー&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/rika-party.jpg&#34;&gt;
+&lt;!-- raw HTML omitted --&gt;
+まず、バトル開始時に梨花が行動します。(スクショのためFA切っています)&lt;/p&gt;
 &lt;p&gt;バトル開始時点で、レナのMPが50、それ以外のキャラはMP0の状態です。
-&lt;img alt=&#34;梨花のバトル1&#34; loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/rika-party-battle1.jpg&#34;&gt;&lt;/p&gt;
+&lt;img alt=&#34;梨花のバトル1&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/rika-party-battle1.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;梨花の戦闘スキルはまどかにかかりました。先述した結論どうりの挙動ですね。
-&lt;img alt=&#34;梨花のバトル2&#34; loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/rika-party-battle2.jpg&#34;&gt;&lt;/p&gt;
+&lt;img alt=&#34;梨花のバトル2&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/rika-party-battle2.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;なお、ブレーカーまたはアタッカーのキャラが優先されるのはそうなんですが、パーティーにどちらのロールも存在する場合どうなるのでしょうか?&lt;/p&gt;
 &lt;p&gt;上記と同様のパーティーで6回検証した結果です↓&lt;/p&gt;
 &lt;ul&gt;
@@ -44,9 +45,9 @@
     </item>
     <item>
       <title>(Linux) exitコマンドとは？使い方をわかりやすく解説</title>
-      <link>https://elnyy.github.io/posts/exit/</link>
+      <link>http://localhost:1313/posts/exit/</link>
       <pubDate>Sat, 18 Apr 2026 09:19:16 +0000</pubDate>
-      <guid>https://elnyy.github.io/posts/exit/</guid>
+      <guid>http://localhost:1313/posts/exit/</guid>
       <description>&lt;p&gt;Linuxを使っていると、ターミナルやSSH接続の終了時に「exit」というコマンドによくお世話になります。このexitは非常にシンプルですが、システム操作において重要な役割を持っています。しかし、初心者のうちはいつ使うのか分かりにくいコマンドのひとつかもしれません。&lt;/p&gt;
 &lt;h2 id=&#34;exitとは&#34;&gt;exitとは&lt;/h2&gt;
 &lt;p&gt;exitは、その名前の通り「終了する」ためのコマンドです。Linuxのシェル（ターミナルの操作環境）やSSH接続、スクリプトの実行など、さまざまな場面で現在のセッションを終了するために使われます。&lt;/p&gt;
@@ -96,9 +97,9 @@
     </item>
     <item>
       <title>(Linux) catコマンドとは？使い方をわかりやすく解説</title>
-      <link>https://elnyy.github.io/posts/cat/</link>
+      <link>http://localhost:1313/posts/cat/</link>
       <pubDate>Sat, 18 Apr 2026 08:59:27 +0000</pubDate>
-      <guid>https://elnyy.github.io/posts/cat/</guid>
+      <guid>http://localhost:1313/posts/cat/</guid>
       <description>&lt;p&gt;Linuxを使い始めると、最初の方で必ず出てくるコマンドのひとつがcatコマンドです。とてもシンプルなコマンドですが、テキストファイルの内容を見たいときなど、日常的な作業で頻繁に使われます。初心者でも覚えやすい一方、実務でも役に立つ重要なコマンドです。&lt;/p&gt;
 &lt;h2 id=&#34;catコマンドとは&#34;&gt;catコマンドとは&lt;/h2&gt;
 &lt;p&gt;catは「concatenate（連結する）」の略です。本来は複数のファイルをつなげるためのコマンドですが、現在では主にファイルの中身を表示する用途で使われることが多いです。&lt;/p&gt;
@@ -166,12 +167,12 @@
     </item>
     <item>
       <title>【まどドラ】イベントクエスト・リンクレイドの時短編成</title>
-      <link>https://elnyy.github.io/posts/daily-time-saving/</link>
+      <link>http://localhost:1313/posts/daily-time-saving/</link>
       <pubDate>Wed, 25 Mar 2026 15:28:01 +0900</pubDate>
-      <guid>https://elnyy.github.io/posts/daily-time-saving/</guid>
+      <guid>http://localhost:1313/posts/daily-time-saving/</guid>
       <description>&lt;p&gt;日々のイベントクエスト・リンクレイドを時短で終わらせるために私が使っている編成について説明します。&lt;/p&gt;
 &lt;h2 id=&#34;マミ単騎の時短編成&#34;&gt;マミ単騎の時短編成&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://elnyy.github.io/images/saving-party.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/saving-party.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;ポートレート・サポートは、後述するマミさんの特長を活かすためにスピード特化にしています。まばゆ未所持の場合は眼鏡ほむらも可能です。&lt;/p&gt;
 &lt;p&gt;この編成では、 &lt;/p&gt;
 &lt;ul&gt;
@@ -204,9 +205,9 @@
     </item>
     <item>
       <title>Helloworld</title>
-      <link>https://elnyy.github.io/posts/helloworld/</link>
+      <link>http://localhost:1313/posts/helloworld/</link>
       <pubDate>Tue, 24 Mar 2026 19:55:36 +0900</pubDate>
-      <guid>https://elnyy.github.io/posts/helloworld/</guid>
+      <guid>http://localhost:1313/posts/helloworld/</guid>
       <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;
 &lt;h2 id=&#34;hello-world-&#34;&gt;Hello World ?&lt;/h2&gt;
 &lt;h3 id=&#34;hello-world--1&#34;&gt;Hello World ??&lt;/h3&gt;
