@@ -4,8 +4,13 @@ title: elnyy
 pagination.pagerSize: 5
 theme: PaperMod
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
 minify:
-  disableXML: true
   minifyOutput: true
 
 params:
