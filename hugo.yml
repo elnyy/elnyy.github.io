@@ -15,7 +15,7 @@ minify:
 
 params:
   disableThemeToggle: true
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowPostNavLinks: true
   ShowShareButton: true
   ShowBreadCrumbs: true

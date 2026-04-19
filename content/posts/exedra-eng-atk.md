@@ -2,7 +2,7 @@
 title: "【まどドラ】必殺技名で覚える英語 (アタッカー編)"
 date: 2026-04-19T12:15:19Z
 categories: ["game", "english"]
-tags: ["まどドラ"]
+tags: ["まどドラ", "english"]
 showTOC: true
 ---
 まどドラの必殺技名(special)の英語版を見ていくことで英語を少しでも覚えてみようという試みです。
@@ -13,7 +13,7 @@ showTOC: true
 ![special-homura](/images/special-homura.jpg)
 暁美ほむら「ミサイルによる集中砲火」は <u>*Concentrated Missile Fire*</u> です。
 
-*concentrated*って初めて聞きました。あと「ミサイル」が英語だということは何となく感じていましたが*Missile*と綴るんですね。
+*concentrated*って初めて聞きました。あと「ミサイル」が英語だということは何となく感じていましたが*Missile*と綴ることは初めて知りました。
 
 単語の意味↓
 * *Concentrated*(adjective) ... 集中した、濃縮した、濃厚な
