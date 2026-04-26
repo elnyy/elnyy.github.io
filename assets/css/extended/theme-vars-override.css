@@ -27,3 +27,9 @@
     --code-bg: #37383e;
     --border: #446;
 }
+
+/* Tag/category list entries normally hide cover images in PaperMod.
+   Show them here so cover images appear in tag/category listings too. */
+.tag-entry .entry-cover {
+    display: block;
+}

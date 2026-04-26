@@ -1,9 +1,12 @@
 baseURL: "https://elnyy.github.io/"
 defaultContentLanguage: "ja"
+languageCode: "ja-jp"
+hasCJKLanguage: true
 title: elnyy
 pagination.pagerSize: 5
 theme: PaperMod
 
+# HTMLコードをコンパイルできるように
 markup:
   goldmark:
     renderer:
@@ -15,11 +18,15 @@ minify:
 
 params:
   disableThemeToggle: true
-  ShowReadingTime: false
+  ShowReadingTime: true
   ShowPostNavLinks: true
   ShowShareButton: true
   ShowBreadCrumbs: true
   UseHugoToc: false 
+  DateFormat: "2006年1月2日"
+  cover:
+    hiddenInList: false
+    hiddenInSingle: false
 
 profileMode:
   enabled: false
@@ -28,19 +35,19 @@ profileMode:
 menu:
   main:
     - identifier: categories
-      name: Categories
+      name: カテゴリー
       url: /categories/
       weight: 10
     - identifier: tags
-      name: Tags
+      name: タグ
       url: /tags/
       weight: 20
     - identifier: archives
-      name: Archives
+      name: アーカイブ
       url: /archives/
       weight: 30
     - identifier: search
-      name: Search
+      name: 検索
       url: /search/
       weight: 40
 
