@@ -1,7 +1,7 @@
 baseurl = "https://elnyy.github.io/"
 title = "Mainroad"
 languageCode = "en-us"
-paginate = "10" # Number of posts per page
+paginate = "5" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
@@ -18,7 +18,6 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   readmore = true # Show "Read more" button in list if true
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
-  mainSections = ["posts"]
 
 [Params.logo]
   subtitle = "Just another site" # Logo subtitle
@@ -28,7 +27,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   list = "right"   # Configure layout for list pages
   single = "right" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist"]
+  widgets = [ "search", "recent", "categories"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget

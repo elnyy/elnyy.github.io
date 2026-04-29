@@ -4,9 +4,8 @@ date: 2026-04-23T14:00:14Z
 categories: ["linux"]
 tags: ["arch"]
 showTOC: true
-cover:
-  image: /images/arch.jpg
 ---
+<!--more-->
 
 先日、初めてArch Linuxに手を出しました。
 Archはインストールが難しそうという偏見からずっと避けてきました。

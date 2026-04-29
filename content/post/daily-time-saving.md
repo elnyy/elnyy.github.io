@@ -7,6 +7,7 @@ showToc: true
 cover:
   image: /images/saving-party.png
 ---
+<!--more-->
 
 日々のイベントクエスト・リンクレイドを時短で終わらせるために私が使っている編成について説明します。
 
