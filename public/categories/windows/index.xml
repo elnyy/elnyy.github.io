@@ -1,19 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Windows on Mainroad</title>
-    <link>https://elnyy.github.io/categories/windows/</link>
-    <description>Recent content in Windows on Mainroad</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 27 Apr 2026 14:38:38 +0000</lastBuildDate>
-    <atom:link href="https://elnyy.github.io/categories/windows/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>(widows) FirefoxでArkenfoxのuser.jsを設定</title>
-      <link>https://elnyy.github.io/post/arkenfox-intro/</link>
-      <pubDate>Mon, 27 Apr 2026 14:38:38 +0000</pubDate>
-      <guid>https://elnyy.github.io/post/arkenfox-intro/</guid>
-      <description>&lt;h2 id=&#34;arkenfox-userjsとは&#34;&gt;arkenfox user.jsとは&lt;/h2&gt;&#xA;&lt;p&gt;firefoxの設定をできる限りプライバシー重視に設定したい人向けのuser.jsである。&lt;/p&gt;&#xA;&lt;p&gt;ソースコードは以下のURLから確認できる。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/arkenfox/user.js/&#34;&gt;https://github.com/arkenfox/user.js/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;導入方法&#34;&gt;導入方法&lt;/h2&gt;&#xA;&lt;p&gt;普通にuser.jsを設定する方法と同じように可能。&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;まず、URLバーから&lt;code&gt;about:profiles&lt;/code&gt;にアクセスする。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;現在使用中のプロファイルを見つけたら、Local Directoryではなく、&lt;u&gt;Root Directory&lt;/u&gt;の方のフォルダを開く。&#xA;&lt;img src=&#34;https://elnyy.github.io/images/aboutprofiles.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;開いたフォルダ内で、&lt;code&gt;user.js&lt;/code&gt;という名前でファイルを作る。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;以下のarkenfoxの&lt;code&gt;user.js&lt;/code&gt;をコピーし、作成した&lt;code&gt;user.js&lt;/code&gt;に貼り付ける。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/arkenfox/user.js/refs/heads/master/user.js&#34;&gt;https://raw.githubusercontent.com/arkenfox/user.js/refs/heads/master/user.js&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;firefoxの全てのタブを終了し、再度起動することで設定が反映されるはず。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;設定が反映されない時は&#34;&gt;設定が反映されない時は&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;プロファイルは間違っていないか&#xA;&lt;ul&gt;&#xA;&lt;li&gt;about:profileを再度確認してみる&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;ファイル名が&lt;code&gt;user.js&lt;/code&gt;となっているか&#xA;&lt;ul&gt;&#xA;&lt;li&gt;一語一句違ってはいけない&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;再起動できていない&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Windows自体を再起動してみる&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;初期の設定だと、自分は使っていないアカウントメニューだとかが表示されていて鬱陶しいんですよ。&#xA;これをすれば見た目がスッキリするのでいいですね。&lt;/p&gt;&#xA;&lt;p&gt;あと、極端にウェブサイトが機能しなくなるってこともありませんし。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Mainroad</title><link>https://elnyy.github.io/categories/windows/</link><description>Recent content in Windows on Mainroad</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2026 14:38:38 +0000</lastBuildDate><atom:link href="https://elnyy.github.io/categories/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>(widows) FirefoxでArkenfoxのuser.jsを設定</title><link>https://elnyy.github.io/post/arkenfox-intro/</link><pubDate>Mon, 27 Apr 2026 14:38:38 +0000</pubDate><guid>https://elnyy.github.io/post/arkenfox-intro/</guid><description>&lt;h2 id="arkenfox-userjsとは"&gt;arkenfox user.jsとは&lt;/h2&gt;
+&lt;p&gt;firefoxの設定をできる限りプライバシー重視に設定したい人向けのuser.jsである。&lt;/p&gt;
+&lt;p&gt;ソースコードは以下のURLから確認できる。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/arkenfox/user.js/"&gt;https://github.com/arkenfox/user.js/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="導入方法"&gt;導入方法&lt;/h2&gt;
+&lt;p&gt;普通にuser.jsを設定する方法と同じように可能。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;まず、URLバーから&lt;code&gt;about:profiles&lt;/code&gt;にアクセスする。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;現在使用中のプロファイルを見つけたら、Local Directoryではなく、&lt;u&gt;Root Directory&lt;/u&gt;の方のフォルダを開く。
+&lt;img src="https://elnyy.github.io/images/aboutprofiles.jpg" alt=""&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;開いたフォルダ内で、&lt;code&gt;user.js&lt;/code&gt;という名前でファイルを作る。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;以下のarkenfoxの&lt;code&gt;user.js&lt;/code&gt;をコピーし、作成した&lt;code&gt;user.js&lt;/code&gt;に貼り付ける。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href="https://raw.githubusercontent.com/arkenfox/user.js/refs/heads/master/user.js"&gt;https://raw.githubusercontent.com/arkenfox/user.js/refs/heads/master/user.js&lt;/a&gt;&lt;/p&gt;
+&lt;ol start="5"&gt;
+&lt;li&gt;firefoxの全てのタブを終了し、再度起動することで設定が反映されるはず。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="設定が反映されない時は"&gt;設定が反映されない時は&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;プロファイルは間違っていないか
+&lt;ul&gt;
+&lt;li&gt;about:profileを再度確認してみる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ファイル名が&lt;code&gt;user.js&lt;/code&gt;となっているか
+&lt;ul&gt;
+&lt;li&gt;一語一句違ってはいけない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;再起動できていない
+&lt;ul&gt;
+&lt;li&gt;Windows自体を再起動してみる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;初期の設定だと、自分は使っていないアカウントメニューだとかが表示されていて鬱陶しいんですよ。
+これをすれば見た目がスッキリするのでいいですね。&lt;/p&gt;
+&lt;p&gt;あと、極端にウェブサイトが機能しなくなるってこともありませんし。&lt;/p&gt;</description></item></channel></rss>

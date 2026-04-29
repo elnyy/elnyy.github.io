@@ -7,8 +7,8 @@ disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Params.author]
-  name = ""
-  bio = ""
+  name = "elnyy"
+  bio = "no bio"
   avatar = "img/avatar.png"
 
 [Params]
@@ -16,7 +16,6 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   opengraph = true
   twitter_cards = false
   readmore = true # Show "Read more" button in list if true
-  authorbox = true
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
   mainSections = ["posts"]
