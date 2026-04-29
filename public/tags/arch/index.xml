@@ -1,48 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arch on Mainroad</title><link>https://elnyy.github.io/tags/arch/</link><description>Recent content in Arch on Mainroad</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 23 Apr 2026 14:00:14 +0000</lastBuildDate><atom:link href="https://elnyy.github.io/tags/arch/index.xml" rel="self" type="application/rss+xml"/><item><title>Arch Linux をUEFI環境にインストールしたときのメモ</title><link>https://elnyy.github.io/post/install-arch/</link><pubDate>Thu, 23 Apr 2026 14:00:14 +0000</pubDate><guid>https://elnyy.github.io/post/install-arch/</guid><description>&lt;p&gt;先日、初めてArch Linuxに手を出しました。
-Archはインストールが難しそうという偏見からずっと避けてきました。
-ですが、最近普段から使っていたdevuanが色々あって使えなくなってしまったので、心機一転、重い腰を上げてArchデビューしてみようと思った次第です。&lt;/p&gt;
-&lt;p&gt;今回は、Arch linuxインストール中に出会った初見殺しや注意点をメモとして書いていきます。&lt;/p&gt;
-&lt;h2 id="環境"&gt;環境&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;PC
-&lt;ul&gt;
-&lt;li&gt;Lenovo IdeaPad&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Arch Linux isoファイル
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://mirrors.cat.net/archlinux/iso/2026.04.01/archlinux-x86_64.iso"&gt;https://mirrors.cat.net/archlinux/iso/2026.04.01/archlinux-x86_64.iso&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="インストールメディアの作成"&gt;インストールメディアの作成&lt;/h2&gt;
-&lt;p&gt;この段階でかなり苦戦しまして、、、&lt;/p&gt;
-&lt;p&gt;最初、iso焼くときはいつもお世話になっている&lt;code&gt;balena etcher&lt;/code&gt;を使って焼いたんですが起動しない、、、というか&lt;code&gt;UEFI&lt;/code&gt;に認識されない(Boot orderを変更できない)。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;balena etcher&lt;/code&gt;がよくないのかと思い、次に試したのが&lt;code&gt;rasberry pi imager&lt;/code&gt;でした。が、それも同じ結果に。。。&lt;/p&gt;
-&lt;p&gt;何故だろう？考えたときに、一つ心当たりがありました。それは、&lt;strong&gt;PCがUEFI環境だったことです&lt;/strong&gt;。今まで&lt;code&gt;BIOS&lt;/code&gt;のPCしか使ってこなかったので盲点でした。&lt;/p&gt;
-&lt;p&gt;で、少し調べると、&lt;strong&gt;UEFIのPCでディスクを認識させるためには、パーティションスタイルが&lt;u&gt;GPT&lt;/u&gt;でなければいけない&lt;/strong&gt;ということが分かりました。
-&lt;code&gt;rasberry pi imager&lt;/code&gt;でisoを書き込んだあとのUSBを確認すると、&lt;code&gt;MBR&lt;/code&gt;となっていました。試しに、windowsでGPT作成したあとで&lt;code&gt;rasberry pi imager&lt;/code&gt;を使ってみましたが、&lt;code&gt;MBR&lt;/code&gt;に上書きされてしまっていました。&lt;code&gt;Balena Etcher&lt;/code&gt;も同様に&lt;code&gt;MBR&lt;/code&gt;に上書きしてしまいます。&lt;/p&gt;
-&lt;h3 id="ならrufusを使おう"&gt;なら、rufusを使おう！&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;rufus&lt;/code&gt;を使えば、パーティションスタイルを選べる！！！&lt;code&gt;GPT&lt;/code&gt;を選択して、書き込み、UEFIを開くと見事にUSBが認識されていました！&lt;/p&gt;
-&lt;h2 id="インストールメディア起動"&gt;インストールメディア起動&lt;/h2&gt;
-&lt;p&gt;まさかのインストールメディア作成が一番の山場だったんです、、、インストールは結構スムーズにできました！&lt;/p&gt;
-&lt;p&gt;とりあえずこの公式wikiを読んでそのとおりに進めていけば間違いないと思います。
-&lt;a href="https://wiki.archlinux.jp/index.php/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AC%E3%82%A4%E3%83%89"&gt;https://wiki.archlinux.jp/index.php/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AC%E3%82%A4%E3%83%89&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ちなみに、ネットワークはandroidでテザリングしました。有線も無線も面倒なときはテザリングが&lt;strong&gt;だいたい&lt;/strong&gt;解決してくれます。&lt;/p&gt;
-&lt;p&gt;また、Arch Linuxのインストールで重要なことを色々してくれる(?)このコマンド↓&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;$ pacstrap -K /mnt base linux linux-firmware
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;これを実行する前に、&lt;strong&gt;&lt;code&gt;UEFI&lt;/code&gt;の人は、&lt;code&gt;esp&lt;/code&gt;を作っておいたほうがいいかも&lt;/strong&gt;。(AI情報のため真偽は不明だけど)&lt;/p&gt;
-&lt;p&gt;私は、上記コマンドを実行したあとに&lt;code&gt;esp&lt;/code&gt;を作成したためなのか、インストール後の3回目の起動くらいで/bootが空っぽになっていました。(謎)&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;UEFI&lt;/code&gt;にも認識されなかったのであせりました。手元にあったArchインストールメディアで&lt;code&gt;esp&lt;/code&gt;と&lt;code&gt;/boot&lt;/code&gt;(grub)を作り直したらなんとか治りました。&lt;/p&gt;
-&lt;h3 id="テキストエディタ使えなくない"&gt;テキストエディタ使えなくない?&lt;/h3&gt;
-&lt;p&gt;公式wikiのインストール手順では&lt;code&gt;/etc/locale.conf&lt;/code&gt;や&lt;code&gt;/etc/hostname&lt;/code&gt;を編集しないといけないときがあるんですが、&lt;code&gt;vim&lt;/code&gt;も&lt;code&gt;nano&lt;/code&gt;も使えない (インストールされていない)。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;sed&lt;/code&gt;や&lt;code&gt;awk&lt;/code&gt;も使えない私は最初、どうやって編集すればいいのか分からず迷いましたが、&lt;code&gt;echo&lt;/code&gt;の出力をリダイレクトする力技で何とかしました。&lt;/p&gt;
-&lt;p&gt;例えば、&lt;code&gt;locale-gen&lt;/code&gt;を実行するために&lt;code&gt;/etc/locale.conf&lt;/code&gt;の&lt;code&gt;LANG=en_US.UTF-8&lt;/code&gt;という行をコメントアウトする作業は、こんな感じです↓&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;$ echo &amp;#39;LANG=en_US.UTF-8&amp;#39; &amp;gt; /etc/locale.conf ## &amp;gt;&amp;gt; でもOK
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;コメントアウトと言っていますが、&lt;code&gt;&amp;gt;&lt;/code&gt;を使用しているためファイル内容を上書きしています。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt;を使用すれば元のコメントされている設定を破壊せずにいけますね。&lt;/p&gt;
-&lt;p&gt;また、私の場合は日本語も使いたいので&lt;code&gt;LANG=ja_JP.UTF-8&lt;/code&gt;も追加してこうしました↓&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;$ echo -e &amp;#34;LANG=en_US.UTF-8\nLANG=ja_JP.UTF-8&amp;#34; &amp;gt; /etc/locale.conf
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="お疲れ様"&gt;お疲れ様&lt;/h2&gt;
-&lt;p&gt;タイトルで「インストールしたときのメモ」とか言いつつ、記事の大半がインストールメディア作成の内容なのは許して。
-インストール自体はwikiを見れば特に問題なくできるとは思います。とはいえ、インストール完了後、&lt;code&gt;reboot&lt;/code&gt;して最初に起動するかどうかを確認する際の緊張感は半端ないですね。でもちゃんと起動してGrub画面が見れた時はめちゃくちゃ嬉しかったです。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch on Mainroad</title>
+    <link>https://elnyy.github.io/tags/arch/</link>
+    <description>Recent content in Arch on Mainroad</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Apr 2026 14:00:14 +0000</lastBuildDate>
+    <atom:link href="https://elnyy.github.io/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch Linux をUEFI環境にインストールしたときのメモ</title>
+      <link>https://elnyy.github.io/post/install-arch/</link>
+      <pubDate>Thu, 23 Apr 2026 14:00:14 +0000</pubDate>
+      <guid>https://elnyy.github.io/post/install-arch/</guid>
+      <description>&lt;p&gt;先日、初めてArch Linuxに手を出しました。&#xA;Archはインストールが難しそうという偏見からずっと避けてきました。&#xA;ですが、最近普段から使っていたdevuanが色々あって使えなくなってしまったので、心機一転、重い腰を上げてArchデビューしてみようと思った次第です。&lt;/p&gt;&#xA;&lt;p&gt;今回は、Arch linuxインストール中に出会った初見殺しや注意点をメモとして書いていきます。&lt;/p&gt;&#xA;&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PC&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lenovo IdeaPad&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Arch Linux isoファイル&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mirrors.cat.net/archlinux/iso/2026.04.01/archlinux-x86_64.iso&#34;&gt;https://mirrors.cat.net/archlinux/iso/2026.04.01/archlinux-x86_64.iso&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;インストールメディアの作成&#34;&gt;インストールメディアの作成&lt;/h2&gt;&#xA;&lt;p&gt;この段階でかなり苦戦しまして、、、&lt;/p&gt;&#xA;&lt;p&gt;最初、iso焼くときはいつもお世話になっている&lt;code&gt;balena etcher&lt;/code&gt;を使って焼いたんですが起動しない、、、というか&lt;code&gt;UEFI&lt;/code&gt;に認識されない(Boot orderを変更できない)。&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;balena etcher&lt;/code&gt;がよくないのかと思い、次に試したのが&lt;code&gt;rasberry pi imager&lt;/code&gt;でした。が、それも同じ結果に。。。&lt;/p&gt;&#xA;&lt;p&gt;何故だろう？考えたときに、一つ心当たりがありました。それは、&lt;strong&gt;PCがUEFI環境だったことです&lt;/strong&gt;。今まで&lt;code&gt;BIOS&lt;/code&gt;のPCしか使ってこなかったので盲点でした。&lt;/p&gt;&#xA;&lt;p&gt;で、少し調べると、&lt;strong&gt;UEFIのPCでディスクを認識させるためには、パーティションスタイルが&lt;u&gt;GPT&lt;/u&gt;でなければいけない&lt;/strong&gt;ということが分かりました。&#xA;&lt;code&gt;rasberry pi imager&lt;/code&gt;でisoを書き込んだあとのUSBを確認すると、&lt;code&gt;MBR&lt;/code&gt;となっていました。試しに、windowsでGPT作成したあとで&lt;code&gt;rasberry pi imager&lt;/code&gt;を使ってみましたが、&lt;code&gt;MBR&lt;/code&gt;に上書きされてしまっていました。&lt;code&gt;Balena Etcher&lt;/code&gt;も同様に&lt;code&gt;MBR&lt;/code&gt;に上書きしてしまいます。&lt;/p&gt;&#xA;&lt;h3 id=&#34;ならrufusを使おう&#34;&gt;なら、rufusを使おう！&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;rufus&lt;/code&gt;を使えば、パーティションスタイルを選べる！！！&lt;code&gt;GPT&lt;/code&gt;を選択して、書き込み、UEFIを開くと見事にUSBが認識されていました！&lt;/p&gt;&#xA;&lt;h2 id=&#34;インストールメディア起動&#34;&gt;インストールメディア起動&lt;/h2&gt;&#xA;&lt;p&gt;まさかのインストールメディア作成が一番の山場だったんです、、、インストールは結構スムーズにできました！&lt;/p&gt;&#xA;&lt;p&gt;とりあえずこの公式wikiを読んでそのとおりに進めていけば間違いないと思います。&#xA;&lt;a href=&#34;https://wiki.archlinux.jp/index.php/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AC%E3%82%A4%E3%83%89&#34;&gt;https://wiki.archlinux.jp/index.php/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AC%E3%82%A4%E3%83%89&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ちなみに、ネットワークはandroidでテザリングしました。有線も無線も面倒なときはテザリングが&lt;strong&gt;だいたい&lt;/strong&gt;解決してくれます。&lt;/p&gt;&#xA;&lt;p&gt;また、Arch Linuxのインストールで重要なことを色々してくれる(?)このコマンド↓&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ pacstrap -K /mnt base linux linux-firmware&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;これを実行する前に、&lt;strong&gt;&lt;code&gt;UEFI&lt;/code&gt;の人は、&lt;code&gt;esp&lt;/code&gt;を作っておいたほうがいいかも&lt;/strong&gt;。(AI情報のため真偽は不明だけど)&lt;/p&gt;&#xA;&lt;p&gt;私は、上記コマンドを実行したあとに&lt;code&gt;esp&lt;/code&gt;を作成したためなのか、インストール後の3回目の起動くらいで/bootが空っぽになっていました。(謎)&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;UEFI&lt;/code&gt;にも認識されなかったのであせりました。手元にあったArchインストールメディアで&lt;code&gt;esp&lt;/code&gt;と&lt;code&gt;/boot&lt;/code&gt;(grub)を作り直したらなんとか治りました。&lt;/p&gt;&#xA;&lt;h3 id=&#34;テキストエディタ使えなくない&#34;&gt;テキストエディタ使えなくない?&lt;/h3&gt;&#xA;&lt;p&gt;公式wikiのインストール手順では&lt;code&gt;/etc/locale.conf&lt;/code&gt;や&lt;code&gt;/etc/hostname&lt;/code&gt;を編集しないといけないときがあるんですが、&lt;code&gt;vim&lt;/code&gt;も&lt;code&gt;nano&lt;/code&gt;も使えない (インストールされていない)。&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;sed&lt;/code&gt;や&lt;code&gt;awk&lt;/code&gt;も使えない私は最初、どうやって編集すればいいのか分からず迷いましたが、&lt;code&gt;echo&lt;/code&gt;の出力をリダイレクトする力技で何とかしました。&lt;/p&gt;&#xA;&lt;p&gt;例えば、&lt;code&gt;locale-gen&lt;/code&gt;を実行するために&lt;code&gt;/etc/locale.conf&lt;/code&gt;の&lt;code&gt;LANG=en_US.UTF-8&lt;/code&gt;という行をコメントアウトする作業は、こんな感じです↓&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ echo  &amp;#39;LANG=en_US.UTF-8&amp;#39; &amp;gt; /etc/locale.conf ## &amp;gt;&amp;gt; でもOK&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;コメントアウトと言っていますが、&lt;code&gt;&amp;gt;&lt;/code&gt;を使用しているためファイル内容を上書きしています。&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt;を使用すれば元のコメントされている設定を破壊せずにいけますね。&lt;/p&gt;&#xA;&lt;p&gt;また、私の場合は日本語も使いたいので&lt;code&gt;LANG=ja_JP.UTF-8&lt;/code&gt;も追加してこうしました↓&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ echo -e &amp;#34;LANG=en_US.UTF-8\nLANG=ja_JP.UTF-8&amp;#34; &amp;gt; /etc/locale.conf&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;お疲れ様&#34;&gt;お疲れ様&lt;/h2&gt;&#xA;&lt;p&gt;タイトルで「インストールしたときのメモ」とか言いつつ、記事の大半がインストールメディア作成の内容なのは許して。&#xA;インストール自体はwikiを見れば特に問題なくできるとは思います。とはいえ、インストール完了後、&lt;code&gt;reboot&lt;/code&gt;して最初に起動するかどうかを確認する際の緊張感は半端ないですね。でもちゃんと起動してGrub画面が見れた時はめちゃくちゃ嬉しかったです。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

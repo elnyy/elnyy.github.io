@@ -6,7 +6,7 @@ theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
-[Author]
+[Params.author]
   name = ""
   bio = ""
   avatar = "img/avatar.png"
