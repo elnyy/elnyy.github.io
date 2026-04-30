@@ -1,5 +1,5 @@
 baseurl = "https://elnyy.github.io/"
-title = "Mainroad"
+title = "elnyy"
 languageCode = "en-us"
 paginate = "5" # Number of posts per page
 theme = "mainroad"
@@ -15,7 +15,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   description = "" # Description of your site
   opengraph = true
   twitter_cards = false
-  readmore = true # Show "Read more" button in list if true
+  readmore = false# Show "Read more" button in list if true
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
 

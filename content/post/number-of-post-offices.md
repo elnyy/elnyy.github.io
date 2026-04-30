@@ -1,0 +1,284 @@
+---
+title: "(スプレッドシート)郵便局の数でランキングを作る"
+description: ""
+date: "2026-04-30T10:03:07Z"
+thumbnail: ""
+categories:
+  - "スプレッドシート"
+---
+<!--more-->
+日本郵政のウェブサイトでは都道府県別で郵便局の数をまとめたエクセルファイルが公開されています。
+![](/images/yusei.png)
+
+今回はこれを使って、郵便局数が多い順にランキングをつけてみようと思います。
+
+
+以下のサイトから現時点で最新のファイルをダウンロードします。
+https://www.post.japanpost.jp/newsrelease/storeinformation/index02.html
+
+ファイルを開くとこんな感じ。
+![](/images/spreadsheet0.png)
+
+左側の２列以外の部分はいらないので、左側２列だけを切り取って新しいシートに保存しました。
+
+右クリックのメニューから「範囲を並べ替え」を選択。
+![](/images/spreadsheet1.png)
+
+郵便局数ランキングなので、並べ替え条件を郵便局数の列である「列C」にして「降順」を選択します。
+![](/images/spreadsheet2.png)
+
+無事、郵便局数が多い順で並べ替えできたようです。
+![](/images/spreadsheet3.png)
+
+最後に、県名の隣の列(A列)に順位を入力して完成です。
+![](/images/spreadsheet4.png)
+
+## おまけ
+
+作成した表をHTMLにしました。
+<table>
+  <thead>
+    <tr>
+      <th>順位</th>
+      <th>県名</th>
+      <th>郵便局数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1位</td>
+      <td>東京都</td>
+      <td>1448</td>
+    </tr>
+    <tr>
+      <td>2位</td>
+      <td>北海道</td>
+      <td>1202</td>
+    </tr>
+    <tr>
+      <td>3位</td>
+      <td>大阪府</td>
+      <td>1061</td>
+    </tr>
+    <tr>
+      <td>4位</td>
+      <td>愛知県</td>
+      <td>836</td>
+    </tr>
+    <tr>
+      <td>5位</td>
+      <td>兵庫県</td>
+      <td>833</td>
+    </tr>
+    <tr>
+      <td>6位</td>
+      <td>神奈川県</td>
+      <td>742</td>
+    </tr>
+    <tr>
+      <td>7位</td>
+      <td>福岡県</td>
+      <td>708</td>
+    </tr>
+    <tr>
+      <td>8位</td>
+      <td>千葉県</td>
+      <td>687</td>
+    </tr>
+    <tr>
+      <td>9位</td>
+      <td>埼玉県</td>
+      <td>623</td>
+    </tr>
+    <tr>
+      <td>10位</td>
+      <td>広島県</td>
+      <td>578</td>
+    </tr>
+    <tr>
+      <td>11位</td>
+      <td>新潟県</td>
+      <td>532</td>
+    </tr>
+    <tr>
+      <td>12位</td>
+      <td>静岡県</td>
+      <td>481</td>
+    </tr>
+    <tr>
+      <td>13位</td>
+      <td>茨城県</td>
+      <td>464</td>
+    </tr>
+    <tr>
+      <td>14位</td>
+      <td>長野県</td>
+      <td>440</td>
+    </tr>
+    <tr>
+      <td>15位</td>
+      <td>京都府</td>
+      <td>435</td>
+    </tr>
+    <tr>
+      <td>16位</td>
+      <td>鹿児島県</td>
+      <td>429</td>
+    </tr>
+    <tr>
+      <td>17位</td>
+      <td>福島県</td>
+      <td>417</td>
+    </tr>
+    <tr>
+      <td>18位</td>
+      <td>岡山県</td>
+      <td>416</td>
+    </tr>
+    <tr>
+      <td>19位</td>
+      <td>熊本県</td>
+      <td>383</td>
+    </tr>
+    <tr>
+      <td>20位</td>
+      <td>三重県</td>
+      <td>370</td>
+    </tr>
+    <tr>
+      <td>21位</td>
+      <td>岐阜県</td>
+      <td>353</td>
+    </tr>
+    <tr>
+      <td>22位</td>
+      <td>宮城県</td>
+      <td>351</td>
+    </tr>
+    <tr>
+      <td>23位</td>
+      <td>山口県</td>
+      <td>347</td>
+    </tr>
+    <tr>
+      <td>24位</td>
+      <td>愛媛県</td>
+      <td>317</td>
+    </tr>
+    <tr>
+      <td>25位</td>
+      <td>栃木県</td>
+      <td>312</td>
+    </tr>
+    <tr>
+      <td>26位</td>
+      <td>長崎県</td>
+      <td>306</td>
+    </tr>
+    <tr>
+      <td>27位</td>
+      <td>岩手県</td>
+      <td>303</td>
+    </tr>
+    <tr>
+      <td>28位</td>
+      <td>群馬県</td>
+      <td>301</td>
+    </tr>
+    <tr>
+      <td>29位</td>
+      <td>大分県</td>
+      <td>301</td>
+    </tr>
+    <tr>
+      <td>30位</td>
+      <td>山形県</td>
+      <td>287</td>
+    </tr>
+    <tr>
+      <td>31位</td>
+      <td>秋田県</td>
+      <td>273</td>
+    </tr>
+    <tr>
+      <td>32位</td>
+      <td>青森県</td>
+      <td>266</td>
+    </tr>
+    <tr>
+      <td>33位</td>
+      <td>和歌山県</td>
+      <td>261</td>
+    </tr>
+    <tr>
+      <td>34位</td>
+      <td>島根県</td>
+      <td>257</td>
+    </tr>
+    <tr>
+      <td>35位</td>
+      <td>奈良県</td>
+      <td>240</td>
+    </tr>
+    <tr>
+      <td>36位</td>
+      <td>石川県</td>
+      <td>239</td>
+    </tr>
+    <tr>
+      <td>37位</td>
+      <td>滋賀県</td>
+      <td>228</td>
+    </tr>
+    <tr>
+      <td>38位</td>
+      <td>高知県</td>
+      <td>225</td>
+    </tr>
+    <tr>
+      <td>39位</td>
+      <td>富山県</td>
+      <td>209</td>
+    </tr>
+    <tr>
+      <td>40位</td>
+      <td>福井県</td>
+      <td>205</td>
+    </tr>
+    <tr>
+      <td>41位</td>
+      <td>山梨県</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>42位</td>
+      <td>徳島県</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>43位</td>
+      <td>宮崎県</td>
+      <td>195</td>
+    </tr>
+    <tr>
+      <td>44位</td>
+      <td>香川県</td>
+      <td>186</td>
+    </tr>
+    <tr>
+      <td>45位</td>
+      <td>沖縄県</td>
+      <td>176</td>
+    </tr>
+    <tr>
+      <td>46位</td>
+      <td>佐賀県</td>
+      <td>166</td>
+    </tr>
+    <tr>
+      <td>47位</td>
+      <td>鳥取県</td>
+      <td>147</td>
+    </tr>
+  </tbody>
+</table>
