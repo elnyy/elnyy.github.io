@@ -1,4 +1,4 @@
-baseURL: "https://elnyy.github.io/public/"
+baseURL: "https://elnyy.github.io/"
 title: note
 paginate: 5
 theme: "PaperMod"
