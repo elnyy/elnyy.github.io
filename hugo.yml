@@ -1,0 +1,4 @@
+baseURL: "https://elnyy.github.io/"
+title: note
+paginate: 5
+theme: "PaperMod"
