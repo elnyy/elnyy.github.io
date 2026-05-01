@@ -8,7 +8,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Params.author]
   name = "elnyy"
-  bio = "no bio"
+  bio = "noun: a biography or biographical sketch"
   avatar = "img/avatar.png"
 
 [Params]
@@ -20,7 +20,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   post_meta = ["date", "categories"] # Order of post meta information
 
 [Params.logo]
-  subtitle = "Just another site" # Logo subtitle
+  subtitle = "たまにゲームを楽しみながら色々なツールに触れる" # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
@@ -38,4 +38,3 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-

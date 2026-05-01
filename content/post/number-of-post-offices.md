@@ -1,5 +1,5 @@
 ---
-title: "(スプレッドシート)郵便局の数でランキングを作る"
+title: "(スプレッドシート)郵便局数の県別ランキングを作る"
 description: ""
 date: "2026-04-30T10:03:07Z"
 thumbnail: ""
@@ -8,20 +8,19 @@ categories:
 ---
 <!--more-->
 日本郵政のウェブサイトでは都道府県別で郵便局の数をまとめたエクセルファイルが公開されています。
-![](/images/yusei.png)
 
-今回はこれを使って、郵便局数が多い順にランキングをつけてみようと思います。
-
-
-以下のサイトから現時点で最新のファイルをダウンロードします。
 https://www.post.japanpost.jp/newsrelease/storeinformation/index02.html
+
+今回はこのファイルをスプレッドシートで編集して、郵便局数が多い順にランキングをつけてみようと思います。
+
 
 ファイルを開くとこんな感じ。
 ![](/images/spreadsheet0.png)
 
 左側の２列以外の部分はいらないので、左側２列だけを切り取って新しいシートに保存しました。
+![](/images/spreadsheet00.png)
 
-右クリックのメニューから「範囲を並べ替え」を選択。
+県名と郵便局数がある箇所を選択後、右クリックのメニューから「範囲を並べ替え」を実行。
 ![](/images/spreadsheet1.png)
 
 郵便局数ランキングなので、並べ替え条件を郵便局数の列である「列C」にして「降順」を選択します。
@@ -33,15 +32,17 @@ https://www.post.japanpost.jp/newsrelease/storeinformation/index02.html
 最後に、県名の隣の列(A列)に順位を入力して完成です。
 ![](/images/spreadsheet4.png)
 
-## おまけ
+## ランキング結果＆考察
 
-作成した表をHTMLにしました。
+画像に全て収めるのはちょっと大きすぎるため、作成した表をHTMLにしました。
+
+ランキング結果です
 <table>
-  <thead>
+ <thead>
     <tr>
       <th>順位</th>
       <th>県名</th>
-      <th>郵便局数</th>
+    <th>郵便局数</th>
     </tr>
   </thead>
   <tbody>
@@ -67,7 +68,7 @@ https://www.post.japanpost.jp/newsrelease/storeinformation/index02.html
     </tr>
     <tr>
       <td>5位</td>
-      <td>兵庫県</td>
+     <td>兵庫県</td>
       <td>833</td>
     </tr>
     <tr>
@@ -282,3 +283,10 @@ https://www.post.japanpost.jp/newsrelease/storeinformation/index02.html
     </tr>
   </tbody>
 </table>
+
+### 考察
+あの広大な北海道をも抑えて東京都が一位になるのは想定外でした。
+
+逆に最小の県である香川県が最下位というわけでもないんですね。
+
+面積の広さも関係してそうですが、やはり栄えている都道府県は数が多い傾向がありそうです。
