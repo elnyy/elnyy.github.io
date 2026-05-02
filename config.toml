@@ -18,6 +18,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   readmore = false# Show "Read more" button in list if true
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
+  googleFontsLink = "https://fonts.google.com/share?selection.family=Noto+Sans+JP:wght@100..900"
 
 [Params.logo]
   subtitle = "たまにゲームを楽しみながら色々なツールに触れる" # Logo subtitle
