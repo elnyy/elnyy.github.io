@@ -1,1 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on elnyy</title><link>https://elnyy.github.io/post/</link><description>Recent content in Posts on elnyy</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2026 12:50:26 +0000</lastBuildDate><atom:link href="https://elnyy.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>(スプレッドシート)2025年、最もカレーライス(外食)を消費した地域を調べる</title><link>https://elnyy.github.io/post/consumption-curryrice25/</link><pubDate>Fri, 01 May 2026 12:50:26 +0000</pubDate><guid>https://elnyy.github.io/post/consumption-curryrice25/</guid><description/></item><item><title>(スプレッドシート)郵便局数の県別ランキングを作る</title><link>https://elnyy.github.io/post/number-of-post-offices/</link><pubDate>Thu, 30 Apr 2026 10:03:07 +0000</pubDate><guid>https://elnyy.github.io/post/number-of-post-offices/</guid><description/></item><item><title>Test</title><link>https://elnyy.github.io/post/test/</link><pubDate>Thu, 30 Apr 2026 10:03:07 +0000</pubDate><guid>https://elnyy.github.io/post/test/</guid><description/></item><item><title>(widows) FirefoxでArkenfoxのuser.jsを設定</title><link>https://elnyy.github.io/post/arkenfox-intro/</link><pubDate>Mon, 27 Apr 2026 14:38:38 +0000</pubDate><guid>https://elnyy.github.io/post/arkenfox-intro/</guid><description/></item><item><title>Arch Linux をUEFI環境にインストールしたときのメモ</title><link>https://elnyy.github.io/post/install-arch/</link><pubDate>Thu, 23 Apr 2026 14:00:14 +0000</pubDate><guid>https://elnyy.github.io/post/install-arch/</guid><description/></item><item><title>【まどドラ】必殺技名で覚える英語 (アタッカー編)</title><link>https://elnyy.github.io/post/exedra-eng-atk/</link><pubDate>Sun, 19 Apr 2026 12:15:19 +0000</pubDate><guid>https://elnyy.github.io/post/exedra-eng-atk/</guid><description/></item><item><title>【まどドラ】★4梨花のフルオート時の挙動について</title><link>https://elnyy.github.io/post/rika-fa/</link><pubDate>Sat, 18 Apr 2026 11:34:17 +0000</pubDate><guid>https://elnyy.github.io/post/rika-fa/</guid><description/></item><item><title>【まどドラ】イベントクエスト・リンクレイドの時短編成</title><link>https://elnyy.github.io/post/daily-time-saving/</link><pubDate>Wed, 25 Mar 2026 15:28:01 +0900</pubDate><guid>https://elnyy.github.io/post/daily-time-saving/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on elnyy</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on elnyy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2026 12:50:26 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(スプレッドシート)2025年、最もカレーライス(外食)を消費した地域を調べる</title>
+      <link>http://localhost:1313/post/consumption-curryrice25/</link>
+      <pubDate>Fri, 01 May 2026 12:50:26 +0000</pubDate>
+      <guid>http://localhost:1313/post/consumption-curryrice25/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>(スプレッドシート)郵便局数の県別ランキングを作る</title>
+      <link>http://localhost:1313/post/number-of-post-offices/</link>
+      <pubDate>Thu, 30 Apr 2026 10:03:07 +0000</pubDate>
+      <guid>http://localhost:1313/post/number-of-post-offices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>(widows) FirefoxでArkenfoxのuser.jsを設定</title>
+      <link>http://localhost:1313/post/arkenfox-intro/</link>
+      <pubDate>Mon, 27 Apr 2026 14:38:38 +0000</pubDate>
+      <guid>http://localhost:1313/post/arkenfox-intro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arch Linux をUEFI環境にインストールしたときのメモ</title>
+      <link>http://localhost:1313/post/install-arch/</link>
+      <pubDate>Thu, 23 Apr 2026 14:00:14 +0000</pubDate>
+      <guid>http://localhost:1313/post/install-arch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>【まどドラ】必殺技名で覚える英語 (アタッカー編)</title>
+      <link>http://localhost:1313/post/exedra-eng-atk/</link>
+      <pubDate>Sun, 19 Apr 2026 12:15:19 +0000</pubDate>
+      <guid>http://localhost:1313/post/exedra-eng-atk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>【まどドラ】★4梨花のフルオート時の挙動について</title>
+      <link>http://localhost:1313/post/rika-fa/</link>
+      <pubDate>Sat, 18 Apr 2026 11:34:17 +0000</pubDate>
+      <guid>http://localhost:1313/post/rika-fa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>【まどドラ】イベントクエスト・リンクレイドの時短編成</title>
+      <link>http://localhost:1313/post/daily-time-saving/</link>
+      <pubDate>Wed, 25 Mar 2026 15:28:01 +0900</pubDate>
+      <guid>http://localhost:1313/post/daily-time-saving/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

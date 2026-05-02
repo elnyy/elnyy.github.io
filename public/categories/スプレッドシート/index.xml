@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>スプレッドシート on elnyy</title><link>https://elnyy.github.io/categories/%E3%82%B9%E3%83%97%E3%83%AC%E3%83%83%E3%83%89%E3%82%B7%E3%83%BC%E3%83%88/</link><description>Recent content in スプレッドシート on elnyy</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2026 12:50:26 +0000</lastBuildDate><atom:link href="https://elnyy.github.io/categories/%E3%82%B9%E3%83%97%E3%83%AC%E3%83%83%E3%83%89%E3%82%B7%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml"/><item><title>(スプレッドシート)2025年、最もカレーライス(外食)を消費した地域を調べる</title><link>https://elnyy.github.io/post/consumption-curryrice25/</link><pubDate>Fri, 01 May 2026 12:50:26 +0000</pubDate><guid>https://elnyy.github.io/post/consumption-curryrice25/</guid><description/></item><item><title>(スプレッドシート)郵便局数の県別ランキングを作る</title><link>https://elnyy.github.io/post/number-of-post-offices/</link><pubDate>Thu, 30 Apr 2026 10:03:07 +0000</pubDate><guid>https://elnyy.github.io/post/number-of-post-offices/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>スプレッドシート on elnyy</title>
+    <link>http://localhost:1313/categories/%E3%82%B9%E3%83%97%E3%83%AC%E3%83%83%E3%83%89%E3%82%B7%E3%83%BC%E3%83%88/</link>
+    <description>Recent content in スプレッドシート on elnyy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2026 12:50:26 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E3%82%B9%E3%83%97%E3%83%AC%E3%83%83%E3%83%89%E3%82%B7%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(スプレッドシート)2025年、最もカレーライス(外食)を消費した地域を調べる</title>
+      <link>http://localhost:1313/post/consumption-curryrice25/</link>
+      <pubDate>Fri, 01 May 2026 12:50:26 +0000</pubDate>
+      <guid>http://localhost:1313/post/consumption-curryrice25/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>(スプレッドシート)郵便局数の県別ランキングを作る</title>
+      <link>http://localhost:1313/post/number-of-post-offices/</link>
+      <pubDate>Thu, 30 Apr 2026 10:03:07 +0000</pubDate>
+      <guid>http://localhost:1313/post/number-of-post-offices/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

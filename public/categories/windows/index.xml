@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on elnyy</title><link>https://elnyy.github.io/categories/windows/</link><description>Recent content in Windows on elnyy</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2026 14:38:38 +0000</lastBuildDate><atom:link href="https://elnyy.github.io/categories/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>(widows) FirefoxでArkenfoxのuser.jsを設定</title><link>https://elnyy.github.io/post/arkenfox-intro/</link><pubDate>Mon, 27 Apr 2026 14:38:38 +0000</pubDate><guid>https://elnyy.github.io/post/arkenfox-intro/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on elnyy</title>
+    <link>http://localhost:1313/categories/windows/</link>
+    <description>Recent content in Windows on elnyy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Apr 2026 14:38:38 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(widows) FirefoxでArkenfoxのuser.jsを設定</title>
+      <link>http://localhost:1313/post/arkenfox-intro/</link>
+      <pubDate>Mon, 27 Apr 2026 14:38:38 +0000</pubDate>
+      <guid>http://localhost:1313/post/arkenfox-intro/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
