@@ -1,6 +1,6 @@
 baseurl = "https://elnyy.github.io/"
 title = "elnyy"
-languageCode = "en-us"
+languageCode = "ja-jp"
 paginate = "5" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
@@ -39,3 +39,8 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
