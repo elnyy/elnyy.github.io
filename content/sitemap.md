@@ -1,6 +1,5 @@
 ---
 menus:
-- main
 - footer
 title: "サイトマップ"
 ---

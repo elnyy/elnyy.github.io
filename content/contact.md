@@ -1,6 +1,5 @@
 ---
 menus:
-- main
 - footer
 title: お問い合わせ
 ---
