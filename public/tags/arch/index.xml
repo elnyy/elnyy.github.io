@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arch on elnyy</title><link>https://elnyy.github.io/tags/arch/</link><description>Recent content in Arch on elnyy</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Thu, 23 Apr 2026 14:00:14 +0000</lastBuildDate><atom:link href="https://elnyy.github.io/tags/arch/index.xml" rel="self" type="application/rss+xml"/><item><title>Arch Linux をUEFI環境にインストールしたときのメモ</title><link>https://elnyy.github.io/post/install-arch/</link><pubDate>Thu, 23 Apr 2026 14:00:14 +0000</pubDate><guid>https://elnyy.github.io/post/install-arch/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch on elnyy</title>
+    <link>https://elnyy.github.io/tags/arch/</link>
+    <description>Recent content in Arch on elnyy</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 23 Apr 2026 14:00:14 +0000</lastBuildDate>
+    <atom:link href="https://elnyy.github.io/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch Linux をUEFI環境にインストールしたときのメモ</title>
+      <link>https://elnyy.github.io/post/install-arch/</link>
+      <pubDate>Thu, 23 Apr 2026 14:00:14 +0000</pubDate>
+      <guid>https://elnyy.github.io/post/install-arch/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
