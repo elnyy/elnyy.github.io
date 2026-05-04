@@ -2,80 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on elnyy</title>
-    <link>https://elnyy.github.io/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on elnyy</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 04 May 2026 02:22:52 +0000</lastBuildDate>
-    <atom:link href="https://elnyy.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 May 2026 07:56:28 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>【まどドラ】★4ひみかのフルオート時の挙動について</title>
-      <link>https://elnyy.github.io/post/mao-fa/</link>
-      <pubDate>Mon, 04 May 2026 02:22:52 +0000</pubDate>
-      <guid>https://elnyy.github.io/post/mao-fa/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>(スプレッドシート)小売物価統計調査（動向編）で地域別年平均のランキングを作る</title>
-      <link>https://elnyy.github.io/post/spr-price/</link>
-      <pubDate>Sun, 03 May 2026 05:29:39 +0000</pubDate>
-      <guid>https://elnyy.github.io/post/spr-price/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>(スプレッドシート)2025年、最もうどん(外食)が高級な地域を調べる</title>
-      <link>https://elnyy.github.io/post/price-udon25/</link>
-      <pubDate>Sun, 03 May 2026 04:16:00 +0000</pubDate>
-      <guid>https://elnyy.github.io/post/price-udon25/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>(スプレッドシート)2025年、最もカレーライス(外食)が高級な地域を調べる</title>
-      <link>https://elnyy.github.io/post/curry-curryrice25/</link>
-      <pubDate>Fri, 01 May 2026 12:50:26 +0000</pubDate>
-      <guid>https://elnyy.github.io/post/curry-curryrice25/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>(スプレッドシート)郵便局数の県別ランキングを作る</title>
-      <link>https://elnyy.github.io/post/number-of-post-offices/</link>
-      <pubDate>Thu, 30 Apr 2026 10:03:07 +0000</pubDate>
-      <guid>https://elnyy.github.io/post/number-of-post-offices/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>(widows) FirefoxでArkenfoxのuser.jsを設定</title>
-      <link>https://elnyy.github.io/post/arkenfox-intro/</link>
-      <pubDate>Mon, 27 Apr 2026 14:38:38 +0000</pubDate>
-      <guid>https://elnyy.github.io/post/arkenfox-intro/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Arch Linux をUEFI環境にインストールしたときのメモ</title>
-      <link>https://elnyy.github.io/post/install-arch/</link>
-      <pubDate>Thu, 23 Apr 2026 14:00:14 +0000</pubDate>
-      <guid>https://elnyy.github.io/post/install-arch/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>【まどドラ】必殺技名で覚える英語 (アタッカー編)</title>
-      <link>https://elnyy.github.io/post/exedra-eng-atk/</link>
-      <pubDate>Sun, 19 Apr 2026 12:15:19 +0000</pubDate>
-      <guid>https://elnyy.github.io/post/exedra-eng-atk/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>【まどドラ】★4梨花のフルオート時の挙動について</title>
-      <link>https://elnyy.github.io/post/rika-fa/</link>
-      <pubDate>Sat, 18 Apr 2026 11:34:17 +0000</pubDate>
-      <guid>https://elnyy.github.io/post/rika-fa/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>【まどドラ】イベントクエスト・リンクレイドの時短編成</title>
-      <link>https://elnyy.github.io/post/daily-time-saving/</link>
-      <pubDate>Wed, 25 Mar 2026 15:28:01 +0900</pubDate>
-      <guid>https://elnyy.github.io/post/daily-time-saving/</guid>
+      <title>Janken</title>
+      <link>http://localhost:1313/post/janken/</link>
+      <pubDate>Mon, 04 May 2026 07:56:28 +0000</pubDate>
+      <guid>http://localhost:1313/post/janken/</guid>
       <description></description>
     </item>
   </channel>

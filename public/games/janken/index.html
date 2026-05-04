@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Janken - elnyy</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:url" content="http://localhost:1313/games/janken/">
+  <meta property="og:site_name" content="elnyy">
+  <meta property="og:title" content="Janken">
+  <meta property="og:description" content="Arcade Janken">
+  <meta property="og:locale" content="ja_jp">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="games">
+    <meta property="article:published_time" content="2026-05-04T07:47:28+00:00">
+    <meta property="article:modified_time" content="2026-05-04T07:47:28+00:00">
+
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="elnyy" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">elnyy</div>
+					<div class="logo__tagline">たまにゲームを楽しみながら色々なツールに触れる</div>
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Janken</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2026-05-04T07:47:28Z">May 04, 2026</time></div></div>
+		</header>
+		<div class="content post__content clearfix">
+			<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Janken</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        canvas {
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+<script>
+    // --- 定数と勝敗判定ロジック ---
+    const HANDS = ['✊', '✌️', '✋']; // 0: グー, 1: チョキ, 2: パー
+    
+    // 数学的アプローチによる勝敗判定
+    // (Player - Enemy + 3) % 3 の結果が 0=引き分け, 1=負け, 2=勝ち
+    const checkWin = (player, enemy) => (player - enemy + 3) % 3;
+
+    // --- 1. タイトルシーン ---
+    class TitleScene extends Phaser.Scene {
+        constructor() { super('TitleScene'); }
+
+        create() {
+            const width = this.cameras.main.width;
+            const height = this.cameras.main.height;
+
+            // タイトルテキスト
+            this.add.text(width / 2, height / 3, 'CYBER JANKEN', {
+                fontFamily: 'Arial Black', fontSize: '64px', color: '#0ff',
+                stroke: '#000', strokeThickness: 8
+            }).setOrigin(0.5);
+
+            // スタートボタン作成
+            const startBtn = this.add.text(width / 2, height / 1.5, '> START GAME <', {
+                fontFamily: 'Courier', fontSize: '32px', color: '#fff',
+                backgroundColor: '#333', padding: { x: 20, y: 10 }
+            }).setOrigin(0.5).setInteractive();
+
+            // ホバーアクションとクリックイベント
+            startBtn.on('pointerover', () => startBtn.setStyle({ color: '#ff0' }));
+            startBtn.on('pointerout', () => startBtn.setStyle({ color: '#fff' }));
+            startBtn.on('pointerdown', () => {
+                this.scene.start('GameScene', { streak: 0 }); // 連勝カウンターを0で初期化
+            });
+        }
+    }
+
+    // --- 2. メインゲームシーン ---
+    class GameScene extends Phaser.Scene {
+        constructor() { super('GameScene'); }
+
+        init(data) {
+            this.streak = data.streak || 0;
+        }
+
+        create() {
+            const width = this.cameras.main.width;
+            const height = this.cameras.main.height;
+
+            // UI: 連勝数の表示
+            this.add.text(20, 20, `WIN STREAK: ${this.streak}`, {
+                fontFamily: 'Courier', fontSize: '24px', color: '#0f0'
+            });
+
+            this.add.text(width / 2, height / 4, '手を選んでください', {
+                fontFamily: 'sans-serif', fontSize: '32px', color: '#fff'
+            }).setOrigin(0.5);
+
+            // ボタンの生成
+            HANDS.forEach((hand, index) => {
+                // 画面下部に等間隔で配置
+                const xPos = width / 2 + (index - 1) * 200;
+                const btn = this.add.text(xPos, height / 1.5, hand, { fontSize: '80px' })
+                    .setOrigin(0.5)
+                    .setInteractive();
+
+                // アニメーション
+                btn.on('pointerover', () => this.tweens.add({ targets: btn, scale: 1.2, duration: 100 }));
+                btn.on('pointerout', () => this.tweens.add({ targets: btn, scale: 1.0, duration: 100 }));
+                
+                // 選択時の処理
+                btn.on('pointerdown', () => this.playTurn(index));
+            });
+        }
+
+        playTurn(playerChoice) {
+            // 敵の手をランダムに決定
+            const enemyChoice = Phaser.Math.Between(0, 2);
+            
+            // リザルトシーンへデータを渡して遷移
+            this.scene.start('ResultScene', {
+                playerChoice,
+                enemyChoice,
+                streak: this.streak
+            });
+        }
+    }
+
+    // --- 3. リザルトシーン ---
+    class ResultScene extends Phaser.Scene {
+        constructor() { super('ResultScene'); }
+
+        init(data) {
+            this.p = data.playerChoice;
+            this.e = data.enemyChoice;
+            this.streak = data.streak;
+            this.resultCode = checkWin(this.p, this.e);
+        }
+
+        create() {
+            const width = this.cameras.main.width;
+            const height = this.cameras.main.height;
+
+            // お互いの手を表示
+            this.add.text(width / 4, height / 3, `YOU\n\n${HANDS[this.p]}`, { fontSize: '64px', align: 'center' }).setOrigin(0.5);
+            this.add.text(width * 3 / 4, height / 3, `ENEMY\n\n${HANDS[this.e]}`, { fontSize: '64px', align: 'center' }).setOrigin(0.5);
+            this.add.text(width / 2, height / 3 + 40, 'VS', { fontStyle: 'italic', fontSize: '48px', color: '#f00' }).setOrigin(0.5);
+
+            // 勝敗結果のテキストと次への状態
+            let resultText = '';
+            let color = '';
+            let nextStreak = this.streak;
+
+            if (this.resultCode === 2) {
+                resultText = 'YOU WIN!';
+                color = '#0f0';
+                nextStreak++;
+            } else if (this.resultCode === 1) {
+                resultText = 'YOU LOSE...';
+                color = '#555';
+                nextStreak = 0; // 連勝ストップ
+            } else {
+                resultText = 'DRAW';
+                color = '#ff0';
+            }
+
+            const resultObj = this.add.text(width / 2, height / 1.8, resultText, {
+                fontFamily: 'Arial Black', fontSize: '64px', color: color
+            }).setOrigin(0.5).setScale(0);
+
+            // 結果テキストのポップアップアニメーション
+            this.tweens.add({
+                targets: resultObj,
+                scale: 1,
+                ease: 'Back.easeOut',
+                duration: 500,
+                onComplete: () => {
+                    this.createNextButton(width, height, nextStreak);
+                }
+            });
+        }
+
+        createNextButton(width, height, nextStreak) {
+            const btnText = this.resultCode === 1 ? '> RETURN TO TITLE <' : '> NEXT BATTLE <';
+            const nextBtn = this.add.text(width / 2, height / 1.2, btnText, {
+                fontFamily: 'Courier', fontSize: '32px', color: '#fff',
+                backgroundColor: '#333', padding: { x: 20, y: 10 }
+            }).setOrigin(0.5).setInteractive();
+
+            nextBtn.on('pointerover', () => nextBtn.setStyle({ color: '#ff0' }));
+            nextBtn.on('pointerout', () => nextBtn.setStyle({ color: '#fff' }));
+            
+            nextBtn.on('pointerdown', () => {
+                if (this.resultCode === 1) {
+                    this.scene.start('TitleScene');
+                } else {
+                    this.scene.start('GameScene', { streak: nextStreak });
+                }
+            });
+        }
+    }
+
+    // --- ゲーム設定と初期化 ---
+    const config = {
+        type: Phaser.AUTO,
+        width: 800,
+        height: 600,
+        backgroundColor: '#1a1a2e', // 深いネイビーでサイバー感を演出
+        parent: 'game-container',
+        scene: [TitleScene, GameScene, ResultScene]
+    };
+
+    const game = new Phaser.Game(config);
+</script>
+</body>
+</html>
+
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="http://localhost:1313/">
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/mao-fa/">【まどドラ】★4ひみかのフルオート時の挙動について</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/spr-price/">(スプレッドシート)小売物価統計調査（動向編）で地域別年平均のランキングを作る</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/price-udon25/">(スプレッドシート)2025年、最もうどん(外食)が高級な地域を調べる</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/curry-curryrice25/">(スプレッドシート)2025年、最もカレーライス(外食)が高級な地域を調べる</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/number-of-post-offices/">(スプレッドシート)郵便局数の県別ランキングを作る</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/english/">English</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/firefox/">Firefox</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/game/">Game</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/linux/">Linux</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/windows/">Windows</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%E3%82%B9%E3%83%97%E3%83%AC%E3%83%83%E3%83%89%E3%82%B7%E3%83%BC%E3%83%88/">スプレッドシート</a></li>
+		</ul>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="/contact/">お問い合わせ</a> | <a class="footer__link" href="/sitemap/">サイトマップ</a>
+</div>
+		<div class="footer__copyright">
+			&copy; 2026 elnyy.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

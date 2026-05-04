@@ -1,0 +1,9 @@
+<div class="game-container" style="display: flex; justify-content: center; margin: 2rem 0;">
+    <iframe 
+        src="{{ .Get "src" }}" 
+        width="{{ .Get "width" | default "800" }}" 
+        height="{{ .Get "height" | default "600" }}" 
+        style="border: none; max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);"
+        allowfullscreen>
+    </iframe>
+</div>
