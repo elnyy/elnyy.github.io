@@ -57,3 +57,13 @@ https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=0020057
 ここで作成したスプレッドシートを共有しておきます
 
 https://docs.google.com/spreadsheets/d/1B56KT2ou0gVB5PKHUMiW4Gm07uaPhClUxK-gsMjW_yA/edit?usp=sharing
+
+---
+
+どんなファイルを加工するときも、
+* **最初にいらないデータは取り除く (もしくは必要なデータだけ取り出す)**
+
+ことがとても重要です。
+
+いらないデータが周囲にあると、どこに視点を置けばいいか戸惑い、ミスが起こりがちです。
+まずは、必要なデータを判断し、そのデータに集中できるようにすることが作業の効率化につながると思います。
