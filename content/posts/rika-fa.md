@@ -1,8 +1,10 @@
 ---
 title: "【まどドラ】★4梨花のフルオート時の挙動について"
 date: 2026-04-18T11:34:17Z
-categories: ["game"]
-showTOC: true
+categories:
+  - "game"
+tags:
+  - "まどドラ"
 ---
 <!--more-->
 

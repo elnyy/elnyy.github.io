@@ -1,11 +1,10 @@
 ---
 title: "【まどドラ】イベントクエスト・リンクレイドの時短編成"
 date: 2026-03-25T15:28:01+09:00
-categories: ["game"]
-tags: ["まどドラ"]
-showToc: true
-cover:
-  image: /images/saving-party.png
+categories:
+  - "game"
+tags:
+  - "まどドラ"
 ---
 <!--more-->
 

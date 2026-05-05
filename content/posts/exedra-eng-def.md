@@ -4,6 +4,10 @@ build:
   render: never
   list: never
   publishResources: false
+categories:
+  - "Game"
+tags:
+  - "まどドラ"
 ---
 <!--more-->
 まどドラの必殺技名の英語版を見ていくことで英語を少しでも覚えてみようという試みです。

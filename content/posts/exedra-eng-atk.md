@@ -1,8 +1,8 @@
 ---
 title: "【まどドラ】必殺技名で覚える英語 (アタッカー編)"
 date: 2026-04-19T12:15:19Z
-categories: ["game", "english"]
-tags: ["まどドラ", "english"]
+categories: ["game"]
+tags: ["まどドラ"]
 showTOC: true
 ---
 <!--more-->

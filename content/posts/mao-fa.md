@@ -5,6 +5,8 @@ date: "2026-05-04T02:22:52Z"
 thumbnail: "/images/himika.png"
 categories:
   - "GAME"
+tags:
+- "まどドラ"
 ---
 <!--more-->
 ★4ひみかのフルオート時のターゲティングについて調べました。

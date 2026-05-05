@@ -1,13 +1,16 @@
 ---
 title: "(widows) FirefoxでArkenfoxのuser.jsを設定"
 date: 2026-04-27T14:38:38Z
-categories: ["Windows", "firefox"]
+categories: 
+  - "Windows"
+  - "Firefox"
 ---
 <!--more-->
 ## arkenfox user.jsとは
 firefoxの設定をできる限りプライバシー重視に設定したい人向けのuser.jsである。
 
 ソースコードは以下のURLから確認できる。
+
 https://github.com/arkenfox/user.js/
 
 ## 導入方法
