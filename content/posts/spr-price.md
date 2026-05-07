@@ -4,6 +4,8 @@ description: ""
 date: "2026-05-03T05:29:39Z"
 thumbnail: ""
 categories:
+  - "TOOL"
+tags:
   - "スプレッドシート"
 ---
 <!--more-->
