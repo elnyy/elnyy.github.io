@@ -1,11 +1,10 @@
 ---
 title: "ランダムなカラーコードを出力するウェブツール"
 description: ""
-toc: false
 date: "2026-05-04T13:39:28Z"
 thumbnail: ""
 categories:
-  - "ウェブツール"
+  - "software"
 ---
 <!--more-->
 <div style="text-align:center; margin-top:50px;">

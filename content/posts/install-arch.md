@@ -1,9 +1,10 @@
 ---
 title: "Arch Linux をUEFI環境にインストールしたときのメモ"
 date: 2026-04-23T14:00:14Z
-categories: ["linux"]
-tags: ["arch"]
-showTOC: true
+categories:
+  - "linux"
+tags: 
+  - "arch"
 ---
 <!--more-->
 
