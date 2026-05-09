@@ -22,7 +22,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   googleFontsLink = "https://fonts.google.com/share?selection.family=Noto+Sans+JP:wght@100..900"
 
 [Params.logo]
-  subtitle = "たまにゲームを楽しみながら色々なツールに触れる" # Logo subtitle
+#  subtitle = "" # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
@@ -47,4 +47,4 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   priority = 0.5
 
 [Params.style.vars]
-  highlightColor = "#5dc82f"
+  highlightColor = "#be9996"
