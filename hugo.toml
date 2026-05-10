@@ -4,7 +4,7 @@ languageCode = "ja-jp"
 paginate = "5" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
-googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+googleAnalytics = "G-YBK4LCQW2Z" # Enable Google Analytics by entering your tracking id
 
 [Params.author]
   name = "elnyy"
