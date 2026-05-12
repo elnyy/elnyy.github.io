@@ -4,7 +4,7 @@ description: ""
 date: "2026-05-04T02:22:52Z"
 thumbnail: "/images/himika.png"
 categories:
-  - "GAME"
+  - "game"
 tags:
 - "まどドラ"
 ---
