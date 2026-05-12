@@ -47,4 +47,4 @@ googleAnalytics = "G-YBK4LCQW2Z" # Enable Google Analytics by entering your trac
   priority = 0.5
 
 [Params.style.vars]
-  highlightColor = "#be9996"
+  highlightColor = "#b0a376"
