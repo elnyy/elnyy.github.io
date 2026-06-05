@@ -12,8 +12,7 @@ googleAnalytics = "G-YBK4LCQW2Z" # Enable Google Analytics by entering your trac
   avatar = "img/avatar.png"
 
 [Params]
-#  mainSections = ["posts", "tools", "games", "news"]
-  mainSections = ["nothing"]
+  mainSections = ["posts", "tools", "games", "news"]
   description = "" # Description of your site
   opengraph = true
   twitter_cards = false

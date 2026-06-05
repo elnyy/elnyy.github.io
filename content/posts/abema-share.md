@@ -1,12 +1,13 @@
 ---
 title: "アベマTVの動画をDiscordで画面共有する(chrome)"
-description: ""
+description: "アベマTVをDiscordで画面共有する方法です。"
 date: "2026-06-05T15:59:35Z"
 thumbnail: "/images/chrome1.jpg"
 categories:
   - "HOWTO"
+  - "Browser"
 tags:
-  - "Discord,"
+  - "Discord"
   - "Chrome"
 ---
 <!--more-->

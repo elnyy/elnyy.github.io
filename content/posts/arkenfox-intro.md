@@ -1,7 +1,10 @@
 ---
 title: "(widows) FirefoxでArkenfoxのuser.jsを設定"
 date: 2026-04-27T14:38:38Z
-categories: 
+categories:
+  - "HOWTO"
+  - "Browser"
+tags: 
   - "windows"
   - "firefox"
 ---
