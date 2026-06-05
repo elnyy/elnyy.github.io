@@ -23,7 +23,7 @@ googleAnalytics = "G-YBK4LCQW2Z" # Enable Google Analytics by entering your trac
   googleFontsLink = "https://fonts.google.com/share?selection.family=Noto+Sans+JP:wght@100..900"
 
 [Params.logo]
-#  subtitle = "" # Logo subtitle
+ subtitle = "色々なソフトを使って、使い方をメモします。" # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
