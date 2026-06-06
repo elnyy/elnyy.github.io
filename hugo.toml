@@ -6,13 +6,13 @@ theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "G-YBK4LCQW2Z" # Enable Google Analytics by entering your tracking id
 
-[Params.author]
-  name = "elnyy"
-  bio = "noun: a biography or biographical sketch"
-  avatar = "img/avatar.png"
+#[Params.author]
+#  name = "elnyy"
+#  bio = "noun: a biography or biographical sketch"
+#  avatar = "img/avatar.png"
 
 [Params]
-  mainSections = ["posts", "tools", "games", "news"]
+  mainSections = ["posts", "games", "news"]
   description = "" # Description of your site
   opengraph = true
   twitter_cards = false
@@ -20,6 +20,7 @@ googleAnalytics = "G-YBK4LCQW2Z" # Enable Google Analytics by entering your trac
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
   googleFontsLink = "https://fonts.google.com/share?selection.family=Noto+Sans+JP:wght@100..900"
+  customCSS = ["/css/custom.css"] # /static/css/custom.css
 
 [Params.logo]
  subtitle = "色々なソフトを使って、使い方をメモします。" # Logo subtitle

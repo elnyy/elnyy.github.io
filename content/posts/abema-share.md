@@ -15,7 +15,7 @@ tags:
 アベマTVの動画をDiscordで画面共有しようとすると、共有画面では動画再生が停止されてしまいす。
 これは恐らく、DRM（Digital Rights Management）制御と呼ばれる、デジタルコンテンツの権利を守るための仕組みのためだと思われます。
 
-DRM制御について詳しくはここを見るといいかもしれない
+DRM制御について詳しくはここを見ると参考になるかもしれない
 
 https://business.adobe.com/jp/blog/basics/digital-rights-management
 
