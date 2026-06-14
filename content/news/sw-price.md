@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "任天堂「スイッチ 2」５月２５日から１万円値上げ"
 description: "Nintendoが8日、Switch2の値上げを発表しました"
 date: "2026-05-09T02:31:53Z"
