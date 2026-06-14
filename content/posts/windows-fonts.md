@@ -11,7 +11,8 @@ tags:
 <!--more-->
 今日はWindows11でフォントを変えてみようと思います。
 今回導入するフォントは[DotGothic16](https://fonts.google.com/specimen/DotGothic16)です。
-DotGothic16は16x16のビットマップフォントで、古いビデオゲームを彷彿とさせるピクセルフォントです。
+DotGothic16は16x16のビットマップフォントで、昔のビデオゲームを彷彿とさせるピクセルフォントです↓
+![](/images/dotgothic16-0.png)
 
 まずは、フォントファイルをゲットしたいので配布ページにアクセスし「Download all」をクリックしてダウンロード。
 ![](/images/dotgothic16-1.png)
