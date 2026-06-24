@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Games on elnyy</title>
-    <link>http://localhost:1313/games/</link>
-    <description>Recent content in Games on elnyy</description>
-    <generator>Hugo</generator>
-    <language>ja-jp</language>
-    <atom:link href="http://localhost:1313/games/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Games on elnyy</title><link>https://elnyy.github.io/games/</link><description>Recent content in Games on elnyy</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Wed, 24 Jun 2026 14:26:16 +0000</lastBuildDate><atom:link href="https://elnyy.github.io/games/index.xml" rel="self" type="application/rss+xml"/><item><title>ゲーム集</title><link>https://elnyy.github.io/games/games/</link><pubDate>Wed, 24 Jun 2026 14:26:16 +0000</pubDate><guid>https://elnyy.github.io/games/games/</guid><description/></item></channel></rss>
