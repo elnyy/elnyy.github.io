@@ -13,7 +13,7 @@ tags:
 <!--more-->
 以下のサイトでAGYで作ったTetrisを公開しています。
 
-https://elnyy.github.io/game-collection/puzzle/tetris/index.html
+https://elnlen.github.io/game-collection/puzzle/tetris/index.html
 
 ## 遊び方
 * 操作方法

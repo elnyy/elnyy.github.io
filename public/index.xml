@@ -1,25 +1,152 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>elnlen</title><link>https://elnlen.github.io/</link><description>Recent content on elnlen</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Wed, 24 Jun 2026 14:39:07 +0000</lastBuildDate><atom:link href="https://elnlen.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Antigravity CLI(AGY)で作ったTetrisゲーム</title><link>https://elnlen.github.io/posts/agy-tetris/</link><pubDate>Wed, 24 Jun 2026 14:39:07 +0000</pubDate><guid>https://elnlen.github.io/posts/agy-tetris/</guid><description/></item><item><title>ゲーム集</title><link>https://elnlen.github.io/games/games/</link><pubDate>Wed, 24 Jun 2026 14:26:16 +0000</pubDate><guid>https://elnlen.github.io/games/games/</guid><description/></item><item><title>LinuxにNvidiaのドライバーを導入(GTX1050ti)</title><link>https://elnlen.github.io/posts/linux-nvidia-driver/</link><pubDate>Sun, 21 Jun 2026 13:05:06 +0000</pubDate><guid>https://elnlen.github.io/posts/linux-nvidia-driver/</guid><description/></item><item><title>(Linux)ntpdateで時刻を同期する(init)</title><link>https://elnlen.github.io/posts/linux-date-synchronization/</link><pubDate>Fri, 19 Jun 2026 13:36:00 +0000</pubDate><guid>https://elnlen.github.io/posts/linux-date-synchronization/</guid><description/></item><item><title>(Windows)フォントを変える</title><link>https://elnlen.github.io/posts/windows-fonts/</link><pubDate>Sun, 14 Jun 2026 01:18:11 +0000</pubDate><guid>https://elnlen.github.io/posts/windows-fonts/</guid><description/></item><item><title>体験談 SDXLでネガティブプロンプトとポジティブプロンプトを入れ替えてしまったトラブル</title><link>https://elnlen.github.io/posts/negative-positive-prompt/</link><pubDate>Wed, 10 Jun 2026 12:23:07 +0000</pubDate><guid>https://elnlen.github.io/posts/negative-positive-prompt/</guid><description/></item><item><title>Hugoで画像が読み込めない時の確認点</title><link>https://elnlen.github.io/posts/hugo-image/</link><pubDate>Sat, 06 Jun 2026 00:34:05 +0000</pubDate><guid>https://elnlen.github.io/posts/hugo-image/</guid><description/></item><item><title>アベマTVの動画をDiscordで画面共有する(chrome)</title><link>https://elnlen.github.io/posts/abema-share/</link><pubDate>Fri, 05 Jun 2026 15:59:35 +0000</pubDate><guid>https://elnlen.github.io/posts/abema-share/</guid><description/></item><item><title>(スプレッドシート)表をHTMLのテーブルに変換してくれるサイト</title><link>https://elnlen.github.io/posts/spr-table/</link><pubDate>Tue, 12 May 2026 14:30:28 +0000</pubDate><guid>https://elnlen.github.io/posts/spr-table/</guid><description/></item><item><title>利用規約</title><link>https://elnlen.github.io/termsofservice/</link><pubDate>Sun, 10 May 2026 02:03:14 +0000</pubDate><guid>https://elnlen.github.io/termsofservice/</guid><description>&lt;h2 id="利用規約"&gt;利用規約&lt;/h2&gt;
-&lt;p&gt;当サイトの利用者は本利用規約に同意の上で利用するものとします。&lt;/p&gt;
-&lt;h3 id="個人情報の取り扱いについて"&gt;個人情報の取り扱いについて&lt;/h3&gt;
-&lt;p&gt;当サイトでは Cookie を利用する以下のサードパーティサービスを利用しています。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Google Analytics&lt;/li&gt;
-&lt;li&gt;Google Adsense&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;当サイトの利用には、上記サードパーティサービスが Cookie を通じて利用者に関するデータを処理することについて、利用者の同意があったものとみなします。
-ただし利用者は、閲覧中のウェブブラウザの設定を変えることで Cookie の利用をオプトアウトすることができます。&lt;/p&gt;
-&lt;h3 id="免責事項"&gt;免責事項&lt;/h3&gt;
-&lt;p&gt;当サイトの利用によって生じたいかなる損害などについて、サイト運営者は一切の責任を負いません。&lt;/p&gt;
-&lt;h3 id="規約の変更"&gt;規約の変更&lt;/h3&gt;
-&lt;p&gt;本規約は、事前の予告なく変更することがあります。 変更は、当サイトに掲載された時点で有効になるものとします。&lt;/p&gt;</description></item><item><title>サイトについて</title><link>https://elnlen.github.io/about/</link><pubDate>Sat, 09 May 2026 14:30:12 +0000</pubDate><guid>https://elnlen.github.io/about/</guid><description>&lt;p&gt;当サイトでは、私が個人的に使っているソフト・ツールの使い方をメモしたり、時には自作ソフトを掲載してりしています。
-重視している点として、AI負けしない情報を提供するということです。今の時代、AIに質問すればほとんどの情報を的確にゲットできますよね。
-しかし、AIが提供する情報は、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;一部の人気なウェブサイトから学習していることがほとんどで、情報の視野が狭い&lt;/li&gt;
-&lt;li&gt;誤情報がいまだに多い。(そのくせ自信満々)&lt;/li&gt;
-&lt;li&gt;重箱の隅をつつくような問題に正しく答えられない&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;ということが実際にあると思います。&lt;/p&gt;
-&lt;p&gt;ソフト・ツールの使い方メモというと、AIの影響から需要に不安が残りますが、ユーザーに役立つ情報を掲載していければと思います。
-また、自分用メモでもあり、自分がどのようなことをやってきたか、それを残していきたいという意図もあります。&lt;/p&gt;
-&lt;p&gt;更新頻度などは決まっていません。メモしたいことがあったら書いていきます。&lt;/p&gt;</description></item><item><title>(スプレッドシート)y=sinxのグラフを作成する</title><link>https://elnlen.github.io/posts/spr-graph-sinx/</link><pubDate>Thu, 07 May 2026 12:25:58 +0000</pubDate><guid>https://elnlen.github.io/posts/spr-graph-sinx/</guid><description/></item><item><title>ランダムなカラーコードを出力するウェブツール</title><link>https://elnlen.github.io/tools/getrandomcolor/</link><pubDate>Mon, 04 May 2026 13:39:28 +0000</pubDate><guid>https://elnlen.github.io/tools/getrandomcolor/</guid><description/></item><item><title>(スプレッドシート)小売物価統計調査（動向編）で地域別年平均のランキングを作る</title><link>https://elnlen.github.io/posts/spr-price/</link><pubDate>Sun, 03 May 2026 05:29:39 +0000</pubDate><guid>https://elnlen.github.io/posts/spr-price/</guid><description/></item><item><title>(スプレッドシート)2025年、最もうどん(外食)が高級な地域を調べる</title><link>https://elnlen.github.io/posts/price-udon25/</link><pubDate>Sun, 03 May 2026 04:16:00 +0000</pubDate><guid>https://elnlen.github.io/posts/price-udon25/</guid><description/></item><item><title>(スプレッドシート)2025年、最もカレーライス(外食)が高級な地域を調べる</title><link>https://elnlen.github.io/posts/curry-curryrice25/</link><pubDate>Fri, 01 May 2026 12:50:26 +0000</pubDate><guid>https://elnlen.github.io/posts/curry-curryrice25/</guid><description/></item><item><title>(スプレッドシート)郵便局数の県別ランキングを作る</title><link>https://elnlen.github.io/posts/number-of-post-offices/</link><pubDate>Thu, 30 Apr 2026 10:03:07 +0000</pubDate><guid>https://elnlen.github.io/posts/number-of-post-offices/</guid><description/></item><item><title>(widows) FirefoxでArkenfoxのuser.jsを設定</title><link>https://elnlen.github.io/posts/arkenfox-intro/</link><pubDate>Mon, 27 Apr 2026 14:38:38 +0000</pubDate><guid>https://elnlen.github.io/posts/arkenfox-intro/</guid><description/></item><item><title>Arch Linux をUEFI環境にインストールしたときのメモ</title><link>https://elnlen.github.io/posts/install-arch/</link><pubDate>Thu, 23 Apr 2026 14:00:14 +0000</pubDate><guid>https://elnlen.github.io/posts/install-arch/</guid><description/></item><item><title>お問い合わせ</title><link>https://elnlen.github.io/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://elnlen.github.io/contact/</guid><description>&lt;iframe src="https://docs.google.com/forms/d/e/1FAIpQLSflIpIBxDyoqME06dGarNCQ0eRF4BYdMUulDgwdX39GWB5eTw/viewform?embedded=true" width="640" height="407" frameborder="0" marginheight="0" marginwidth="0"&gt;読み込んでいます…&lt;/iframe&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>elnlen</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on elnlen</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 24 Jun 2026 14:39:07 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antigravity CLI(AGY)で作ったTetrisゲーム</title>
+      <link>http://localhost:1313/posts/agy-tetris/</link>
+      <pubDate>Wed, 24 Jun 2026 14:39:07 +0000</pubDate>
+      <guid>http://localhost:1313/posts/agy-tetris/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ゲーム集</title>
+      <link>http://localhost:1313/games/games/</link>
+      <pubDate>Wed, 24 Jun 2026 14:26:16 +0000</pubDate>
+      <guid>http://localhost:1313/games/games/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LinuxにNvidiaのドライバーを導入(GTX1050ti)</title>
+      <link>http://localhost:1313/posts/linux-nvidia-driver/</link>
+      <pubDate>Sun, 21 Jun 2026 13:05:06 +0000</pubDate>
+      <guid>http://localhost:1313/posts/linux-nvidia-driver/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>(Linux)ntpdateで時刻を同期する(init)</title>
+      <link>http://localhost:1313/posts/linux-date-synchronization/</link>
+      <pubDate>Fri, 19 Jun 2026 13:36:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/linux-date-synchronization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>(Windows)フォントを変える</title>
+      <link>http://localhost:1313/posts/windows-fonts/</link>
+      <pubDate>Sun, 14 Jun 2026 01:18:11 +0000</pubDate>
+      <guid>http://localhost:1313/posts/windows-fonts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>体験談 SDXLでネガティブプロンプトとポジティブプロンプトを入れ替えてしまったトラブル</title>
+      <link>http://localhost:1313/posts/negative-positive-prompt/</link>
+      <pubDate>Wed, 10 Jun 2026 12:23:07 +0000</pubDate>
+      <guid>http://localhost:1313/posts/negative-positive-prompt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugoで画像が読み込めない時の確認点</title>
+      <link>http://localhost:1313/posts/hugo-image/</link>
+      <pubDate>Sat, 06 Jun 2026 00:34:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hugo-image/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>アベマTVの動画をDiscordで画面共有する(chrome)</title>
+      <link>http://localhost:1313/posts/abema-share/</link>
+      <pubDate>Fri, 05 Jun 2026 15:59:35 +0000</pubDate>
+      <guid>http://localhost:1313/posts/abema-share/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>(スプレッドシート)表をHTMLのテーブルに変換してくれるサイト</title>
+      <link>http://localhost:1313/posts/spr-table/</link>
+      <pubDate>Tue, 12 May 2026 14:30:28 +0000</pubDate>
+      <guid>http://localhost:1313/posts/spr-table/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>利用規約</title>
+      <link>http://localhost:1313/termsofservice/</link>
+      <pubDate>Sun, 10 May 2026 02:03:14 +0000</pubDate>
+      <guid>http://localhost:1313/termsofservice/</guid>
+      <description>&lt;h2 id=&#34;利用規約&#34;&gt;利用規約&lt;/h2&gt;&#xA;&lt;p&gt;当サイトの利用者は本利用規約に同意の上で利用するものとします。&lt;/p&gt;&#xA;&lt;h3 id=&#34;個人情報の取り扱いについて&#34;&gt;個人情報の取り扱いについて&lt;/h3&gt;&#xA;&lt;p&gt;当サイトでは Cookie を利用する以下のサードパーティサービスを利用しています。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Google Analytics&lt;/li&gt;&#xA;&lt;li&gt;Google Adsense&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;当サイトの利用には、上記サードパーティサービスが Cookie を通じて利用者に関するデータを処理することについて、利用者の同意があったものとみなします。&#xA;ただし利用者は、閲覧中のウェブブラウザの設定を変えることで Cookie の利用をオプトアウトすることができます。&lt;/p&gt;&#xA;&lt;h3 id=&#34;免責事項&#34;&gt;免責事項&lt;/h3&gt;&#xA;&lt;p&gt;当サイトの利用によって生じたいかなる損害などについて、サイト運営者は一切の責任を負いません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;規約の変更&#34;&gt;規約の変更&lt;/h3&gt;&#xA;&lt;p&gt;本規約は、事前の予告なく変更することがあります。 変更は、当サイトに掲載された時点で有効になるものとします。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>サイトについて</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 09 May 2026 14:30:12 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;当サイトでは、私が個人的に使っているソフト・ツールの使い方をメモしたり、時には自作ソフトを掲載してりしています。&#xA;重視している点として、AI負けしない情報を提供するということです。今の時代、AIに質問すればほとんどの情報を的確にゲットできますよね。&#xA;しかし、AIが提供する情報は、&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;一部の人気なウェブサイトから学習していることがほとんどで、情報の視野が狭い&lt;/li&gt;&#xA;&lt;li&gt;誤情報がいまだに多い。(そのくせ自信満々)&lt;/li&gt;&#xA;&lt;li&gt;重箱の隅をつつくような問題に正しく答えられない&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ということが実際にあると思います。&lt;/p&gt;&#xA;&lt;p&gt;ソフト・ツールの使い方メモというと、AIの影響から需要に不安が残りますが、ユーザーに役立つ情報を掲載していければと思います。&#xA;また、自分用メモでもあり、自分がどのようなことをやってきたか、それを残していきたいという意図もあります。&lt;/p&gt;&#xA;&lt;p&gt;更新頻度などは決まっていません。メモしたいことがあったら書いていきます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(スプレッドシート)y=sinxのグラフを作成する</title>
+      <link>http://localhost:1313/posts/spr-graph-sinx/</link>
+      <pubDate>Thu, 07 May 2026 12:25:58 +0000</pubDate>
+      <guid>http://localhost:1313/posts/spr-graph-sinx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ランダムなカラーコードを出力するウェブツール</title>
+      <link>http://localhost:1313/tools/getrandomcolor/</link>
+      <pubDate>Mon, 04 May 2026 13:39:28 +0000</pubDate>
+      <guid>http://localhost:1313/tools/getrandomcolor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>(スプレッドシート)小売物価統計調査（動向編）で地域別年平均のランキングを作る</title>
+      <link>http://localhost:1313/posts/spr-price/</link>
+      <pubDate>Sun, 03 May 2026 05:29:39 +0000</pubDate>
+      <guid>http://localhost:1313/posts/spr-price/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>(スプレッドシート)2025年、最もうどん(外食)が高級な地域を調べる</title>
+      <link>http://localhost:1313/posts/price-udon25/</link>
+      <pubDate>Sun, 03 May 2026 04:16:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/price-udon25/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>(スプレッドシート)2025年、最もカレーライス(外食)が高級な地域を調べる</title>
+      <link>http://localhost:1313/posts/curry-curryrice25/</link>
+      <pubDate>Fri, 01 May 2026 12:50:26 +0000</pubDate>
+      <guid>http://localhost:1313/posts/curry-curryrice25/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>(スプレッドシート)郵便局数の県別ランキングを作る</title>
+      <link>http://localhost:1313/posts/number-of-post-offices/</link>
+      <pubDate>Thu, 30 Apr 2026 10:03:07 +0000</pubDate>
+      <guid>http://localhost:1313/posts/number-of-post-offices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>(widows) FirefoxでArkenfoxのuser.jsを設定</title>
+      <link>http://localhost:1313/posts/arkenfox-intro/</link>
+      <pubDate>Mon, 27 Apr 2026 14:38:38 +0000</pubDate>
+      <guid>http://localhost:1313/posts/arkenfox-intro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arch Linux をUEFI環境にインストールしたときのメモ</title>
+      <link>http://localhost:1313/posts/install-arch/</link>
+      <pubDate>Thu, 23 Apr 2026 14:00:14 +0000</pubDate>
+      <guid>http://localhost:1313/posts/install-arch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>お問い合わせ</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSflIpIBxDyoqME06dGarNCQ0eRF4BYdMUulDgwdX39GWB5eTw/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;407&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;読み込んでいます…&lt;/iframe&gt;</description>
+    </item>
+  </channel>
+</rss>
