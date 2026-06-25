@@ -1,5 +1,5 @@
-baseurl = "https://elnyy.github.io/"
-title = "elnyy"
+baseurl = "https://elnlen.github.io/"
+title = "elnlen"
 languageCode = "ja-jp"
 paginate = "5" # Number of posts per page
 theme = "mainroad"
